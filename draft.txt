@@ -1,0 +1,22 @@
+import pandas as pd
+
+def balance_sample(df, label_col):
+    # Split the DataFrame into two based on labels
+    positives = df[df[label_col] == 1]
+    negatives = df[df[label_col] == 0]
+    
+    # Determine the minimum number of rows to take to balance
+    min_samples = min(len(positives), len(negatives))
+    
+    # Randomly sample the same number of positive and negative rows
+    positive_sample = positives.sample(n=min_samples, random_state=42)
+    negative_sample = negatives.sample(n=min_samples, random_state=42)
+    
+    # Concatenate the two samples to get a balanced sample
+    balanced_sample = pd.concat([positive_sample, negative_sample])
+    
+    return balanced_sample
+
+# Example usage:
+# Suppose df is your original DataFrame and 'label' is the column containing labels
+# balanced_sample_df = balance_sample(df, 'label')

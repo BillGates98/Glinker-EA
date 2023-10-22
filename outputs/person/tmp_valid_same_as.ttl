@@ -1,0 +1,1092 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+<http://www.okkam.org/oaie/person1-Address100> owl:sameAs <http://www.okkam.org/oaie/person2-Address3491> .
+
+<http://www.okkam.org/oaie/person1-Address1120> owl:sameAs <http://www.okkam.org/oaie/person2-Address1121> .
+
+<http://www.okkam.org/oaie/person1-Address1310> owl:sameAs <http://www.okkam.org/oaie/person2-Address1311> .
+
+<http://www.okkam.org/oaie/person1-Address150> owl:sameAs <http://www.okkam.org/oaie/person2-Address1121> .
+
+<http://www.okkam.org/oaie/person1-Address1540> owl:sameAs <http://www.okkam.org/oaie/person2-Address2211> .
+
+<http://www.okkam.org/oaie/person1-Address1610> owl:sameAs <http://www.okkam.org/oaie/person2-Address1611> .
+
+<http://www.okkam.org/oaie/person1-Address1670> owl:sameAs <http://www.okkam.org/oaie/person2-Address3491> .
+
+<http://www.okkam.org/oaie/person1-Address1830> owl:sameAs <http://www.okkam.org/oaie/person2-Address1261> .
+
+<http://www.okkam.org/oaie/person1-Address190> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Address1920> owl:sameAs <http://www.okkam.org/oaie/person2-Person141> .
+
+<http://www.okkam.org/oaie/person1-Address2020> owl:sameAs <http://www.okkam.org/oaie/person2-Address3401> .
+
+<http://www.okkam.org/oaie/person1-Address2170> owl:sameAs <http://www.okkam.org/oaie/person2-Address4371> .
+
+<http://www.okkam.org/oaie/person1-Address2230> owl:sameAs <http://www.okkam.org/oaie/person2-Address121> .
+
+<http://www.okkam.org/oaie/person1-Address2250> owl:sameAs <http://www.okkam.org/oaie/person2-Address561> .
+
+<http://www.okkam.org/oaie/person1-Address2440> owl:sameAs <http://www.okkam.org/oaie/person2-Address1121> .
+
+<http://www.okkam.org/oaie/person1-Address2530> owl:sameAs <http://www.okkam.org/oaie/person2-Address4761> .
+
+<http://www.okkam.org/oaie/person1-Address2560> owl:sameAs <http://www.okkam.org/oaie/person2-Address3401> .
+
+<http://www.okkam.org/oaie/person1-Address2670> owl:sameAs <http://www.okkam.org/oaie/person2-Person2591> .
+
+<http://www.okkam.org/oaie/person1-Address310> owl:sameAs <http://www.okkam.org/oaie/person2-Address4371> .
+
+<http://www.okkam.org/oaie/person1-Address3240> owl:sameAs <http://www.okkam.org/oaie/person2-Address3241> .
+
+<http://www.okkam.org/oaie/person1-Address3300> owl:sameAs <http://www.okkam.org/oaie/person2-Address3301> .
+
+<http://www.okkam.org/oaie/person1-Address3400> owl:sameAs <http://www.okkam.org/oaie/person2-Address3401> .
+
+<http://www.okkam.org/oaie/person1-Address3490> owl:sameAs <http://www.okkam.org/oaie/person2-Address2011> .
+
+<http://www.okkam.org/oaie/person1-Address3650> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Address3740> owl:sameAs <http://www.okkam.org/oaie/person2-Address2751> .
+
+<http://www.okkam.org/oaie/person1-Address3870> owl:sameAs <http://www.okkam.org/oaie/person2-Address4971> .
+
+<http://www.okkam.org/oaie/person1-Address390> owl:sameAs <http://www.okkam.org/oaie/person2-Address1721> .
+
+<http://www.okkam.org/oaie/person1-Address4030> owl:sameAs <http://www.okkam.org/oaie/person2-Address1091> .
+
+<http://www.okkam.org/oaie/person1-Address4130> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Address4320> owl:sameAs <http://www.okkam.org/oaie/person2-Address3491> .
+
+<http://www.okkam.org/oaie/person1-Address4370> owl:sameAs <http://www.okkam.org/oaie/person2-Address4371> .
+
+<http://www.okkam.org/oaie/person1-Address4390> owl:sameAs <http://www.okkam.org/oaie/person2-Person4341> .
+
+<http://www.okkam.org/oaie/person1-Address4440> owl:sameAs <http://www.okkam.org/oaie/person2-Person4811> .
+
+<http://www.okkam.org/oaie/person1-Address4510> owl:sameAs <http://www.okkam.org/oaie/person2-Address1611> .
+
+<http://www.okkam.org/oaie/person1-Address4520> owl:sameAs <http://www.okkam.org/oaie/person2-Person2131> .
+
+<http://www.okkam.org/oaie/person1-Address4600> owl:sameAs <http://www.okkam.org/oaie/person2-Address2211> .
+
+<http://www.okkam.org/oaie/person1-Address4630> owl:sameAs <http://www.okkam.org/oaie/person2-Address1121> .
+
+<http://www.okkam.org/oaie/person1-Address4740> owl:sameAs <http://www.okkam.org/oaie/person2-Address561> .
+
+<http://www.okkam.org/oaie/person1-Address4790> owl:sameAs <http://www.okkam.org/oaie/person2-Person2131> .
+
+<http://www.okkam.org/oaie/person1-Address4810> owl:sameAs <http://www.okkam.org/oaie/person2-Person3501> .
+
+<http://www.okkam.org/oaie/person1-Address4850> owl:sameAs <http://www.okkam.org/oaie/person2-Address2031> .
+
+<http://www.okkam.org/oaie/person1-Address50> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Address580> owl:sameAs <http://www.okkam.org/oaie/person2-Address121> .
+
+<http://www.okkam.org/oaie/person1-Address640> owl:sameAs <http://www.okkam.org/oaie/person2-Person4341> .
+
+<http://www.okkam.org/oaie/person1-Address670> owl:sameAs <http://www.okkam.org/oaie/person2-Person4341> .
+
+<http://www.okkam.org/oaie/person1-Address900> owl:sameAs <http://www.okkam.org/oaie/person2-Person2101> .
+
+<http://www.okkam.org/oaie/person1-Person00> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person10> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person100> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person1000> owl:sameAs <http://www.okkam.org/oaie/person2-Address1971> .
+
+<http://www.okkam.org/oaie/person1-Person1010> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person1020> owl:sameAs <http://www.okkam.org/oaie/person2-Address4971> .
+
+<http://www.okkam.org/oaie/person1-Person1040> owl:sameAs <http://www.okkam.org/oaie/person2-Address1111> .
+
+<http://www.okkam.org/oaie/person1-Person1050> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person1060> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person1070> owl:sameAs <http://www.okkam.org/oaie/person2-Address4971> .
+
+<http://www.okkam.org/oaie/person1-Person1080> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person1090> owl:sameAs <http://www.okkam.org/oaie/person2-Address1261> .
+
+<http://www.okkam.org/oaie/person1-Person110> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person1100> owl:sameAs <http://www.okkam.org/oaie/person2-Address1111> .
+
+<http://www.okkam.org/oaie/person1-Person1110> owl:sameAs <http://www.okkam.org/oaie/person2-Address4971> .
+
+<http://www.okkam.org/oaie/person1-Person1120> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person1130> owl:sameAs <http://www.okkam.org/oaie/person2-Person3441> .
+
+<http://www.okkam.org/oaie/person1-Person1140> owl:sameAs <http://www.okkam.org/oaie/person2-Address4971> .
+
+<http://www.okkam.org/oaie/person1-Person1150> owl:sameAs <http://www.okkam.org/oaie/person2-Person2591> .
+
+<http://www.okkam.org/oaie/person1-Person1160> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person1170> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person1180> owl:sameAs <http://www.okkam.org/oaie/person2-Address4971> .
+
+<http://www.okkam.org/oaie/person1-Person1190> owl:sameAs <http://www.okkam.org/oaie/person2-Person2891> .
+
+<http://www.okkam.org/oaie/person1-Person120> owl:sameAs <http://www.okkam.org/oaie/person2-Person4471> .
+
+<http://www.okkam.org/oaie/person1-Person1200> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person1210> owl:sameAs <http://www.okkam.org/oaie/person2-Address2011> .
+
+<http://www.okkam.org/oaie/person1-Person1220> owl:sameAs <http://www.okkam.org/oaie/person2-Address3801> .
+
+<http://www.okkam.org/oaie/person1-Person1230> owl:sameAs <http://www.okkam.org/oaie/person2-Address4971> .
+
+<http://www.okkam.org/oaie/person1-Person1240> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person1250> owl:sameAs <http://www.okkam.org/oaie/person2-Address4971> .
+
+<http://www.okkam.org/oaie/person1-Person1260> owl:sameAs <http://www.okkam.org/oaie/person2-Person4861> .
+
+<http://www.okkam.org/oaie/person1-Person1270> owl:sameAs <http://www.okkam.org/oaie/person2-Person4861> .
+
+<http://www.okkam.org/oaie/person1-Person1280> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person1290> owl:sameAs <http://www.okkam.org/oaie/person2-Address4971> .
+
+<http://www.okkam.org/oaie/person1-Person130> owl:sameAs <http://www.okkam.org/oaie/person2-Address1261> .
+
+<http://www.okkam.org/oaie/person1-Person1300> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person1310> owl:sameAs <http://www.okkam.org/oaie/person2-Address1261> .
+
+<http://www.okkam.org/oaie/person1-Person1320> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person1330> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person1340> owl:sameAs <http://www.okkam.org/oaie/person2-Person2891> .
+
+<http://www.okkam.org/oaie/person1-Person1350> owl:sameAs <http://www.okkam.org/oaie/person2-Person711> .
+
+<http://www.okkam.org/oaie/person1-Person1360> owl:sameAs <http://www.okkam.org/oaie/person2-Address1111> .
+
+<http://www.okkam.org/oaie/person1-Person1370> owl:sameAs <http://www.okkam.org/oaie/person2-Person4861> .
+
+<http://www.okkam.org/oaie/person1-Person1380> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person1390> owl:sameAs <http://www.okkam.org/oaie/person2-Address1411> .
+
+<http://www.okkam.org/oaie/person1-Person140> owl:sameAs <http://www.okkam.org/oaie/person2-Person4861> .
+
+<http://www.okkam.org/oaie/person1-Person1400> owl:sameAs <http://www.okkam.org/oaie/person2-Address2501> .
+
+<http://www.okkam.org/oaie/person1-Person1410> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person1420> owl:sameAs <http://www.okkam.org/oaie/person2-Person2591> .
+
+<http://www.okkam.org/oaie/person1-Person1430> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person1440> owl:sameAs <http://www.okkam.org/oaie/person2-Address4971> .
+
+<http://www.okkam.org/oaie/person1-Person1450> owl:sameAs <http://www.okkam.org/oaie/person2-Person2591> .
+
+<http://www.okkam.org/oaie/person1-Person1460> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person1470> owl:sameAs <http://www.okkam.org/oaie/person2-Address4971> .
+
+<http://www.okkam.org/oaie/person1-Person1480> owl:sameAs <http://www.okkam.org/oaie/person2-Person4861> .
+
+<http://www.okkam.org/oaie/person1-Person1490> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person150> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person1500> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person1510> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person1520> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person1530> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person1540> owl:sameAs <http://www.okkam.org/oaie/person2-Address1261> .
+
+<http://www.okkam.org/oaie/person1-Person1550> owl:sameAs <http://www.okkam.org/oaie/person2-Person4861> .
+
+<http://www.okkam.org/oaie/person1-Person1560> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person1570> owl:sameAs <http://www.okkam.org/oaie/person2-Address1111> .
+
+<http://www.okkam.org/oaie/person1-Person1580> owl:sameAs <http://www.okkam.org/oaie/person2-Address1261> .
+
+<http://www.okkam.org/oaie/person1-Person1590> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person160> owl:sameAs <http://www.okkam.org/oaie/person2-Address2021> .
+
+<http://www.okkam.org/oaie/person1-Person1600> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person1610> owl:sameAs <http://www.okkam.org/oaie/person2-Person2591> .
+
+<http://www.okkam.org/oaie/person1-Person1620> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person1630> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person1640> owl:sameAs <http://www.okkam.org/oaie/person2-Person3961> .
+
+<http://www.okkam.org/oaie/person1-Person1650> owl:sameAs <http://www.okkam.org/oaie/person2-Address1111> .
+
+<http://www.okkam.org/oaie/person1-Person1660> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person1670> owl:sameAs <http://www.okkam.org/oaie/person2-Address1261> .
+
+<http://www.okkam.org/oaie/person1-Person1680> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person1690> owl:sameAs <http://www.okkam.org/oaie/person2-Address4971> .
+
+<http://www.okkam.org/oaie/person1-Person170> owl:sameAs <http://www.okkam.org/oaie/person2-Address1261> .
+
+<http://www.okkam.org/oaie/person1-Person1700> owl:sameAs <http://www.okkam.org/oaie/person2-Person4861> .
+
+<http://www.okkam.org/oaie/person1-Person1710> owl:sameAs <http://www.okkam.org/oaie/person2-Person3961> .
+
+<http://www.okkam.org/oaie/person1-Person1720> owl:sameAs <http://www.okkam.org/oaie/person2-Address1111> .
+
+<http://www.okkam.org/oaie/person1-Person1730> owl:sameAs <http://www.okkam.org/oaie/person2-Address4971> .
+
+<http://www.okkam.org/oaie/person1-Person1740> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person1750> owl:sameAs <http://www.okkam.org/oaie/person2-Person2591> .
+
+<http://www.okkam.org/oaie/person1-Person1760> owl:sameAs <http://www.okkam.org/oaie/person2-Person2891> .
+
+<http://www.okkam.org/oaie/person1-Person1770> owl:sameAs <http://www.okkam.org/oaie/person2-Address2011> .
+
+<http://www.okkam.org/oaie/person1-Person1780> owl:sameAs <http://www.okkam.org/oaie/person2-Address1111> .
+
+<http://www.okkam.org/oaie/person1-Person1790> owl:sameAs <http://www.okkam.org/oaie/person2-Address4971> .
+
+<http://www.okkam.org/oaie/person1-Person180> owl:sameAs <http://www.okkam.org/oaie/person2-Person1741> .
+
+<http://www.okkam.org/oaie/person1-Person1800> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person1810> owl:sameAs <http://www.okkam.org/oaie/person2-Person4861> .
+
+<http://www.okkam.org/oaie/person1-Person1820> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person1830> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person1840> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person1850> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person1860> owl:sameAs <http://www.okkam.org/oaie/person2-Person2591> .
+
+<http://www.okkam.org/oaie/person1-Person1870> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person1880> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person1890> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person190> owl:sameAs <http://www.okkam.org/oaie/person2-Person2131> .
+
+<http://www.okkam.org/oaie/person1-Person1900> owl:sameAs <http://www.okkam.org/oaie/person2-Address4971> .
+
+<http://www.okkam.org/oaie/person1-Person1910> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person1920> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person1930> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person1940> owl:sameAs <http://www.okkam.org/oaie/person2-Person2891> .
+
+<http://www.okkam.org/oaie/person1-Person1950> owl:sameAs <http://www.okkam.org/oaie/person2-Address2981> .
+
+<http://www.okkam.org/oaie/person1-Person1960> owl:sameAs <http://www.okkam.org/oaie/person2-Person2591> .
+
+<http://www.okkam.org/oaie/person1-Person1970> owl:sameAs <http://www.okkam.org/oaie/person2-Person4861> .
+
+<http://www.okkam.org/oaie/person1-Person1980> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person1990> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person20> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person200> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person2000> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person2010> owl:sameAs <http://www.okkam.org/oaie/person2-Person3121> .
+
+<http://www.okkam.org/oaie/person1-Person2020> owl:sameAs <http://www.okkam.org/oaie/person2-Address1051> .
+
+<http://www.okkam.org/oaie/person1-Person2030> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person2040> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person2050> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person2060> owl:sameAs <http://www.okkam.org/oaie/person2-Person4251> .
+
+<http://www.okkam.org/oaie/person1-Person2070> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person2080> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person2090> owl:sameAs <http://www.okkam.org/oaie/person2-Address2011> .
+
+<http://www.okkam.org/oaie/person1-Person210> owl:sameAs <http://www.okkam.org/oaie/person2-Address1261> .
+
+<http://www.okkam.org/oaie/person1-Person2100> owl:sameAs <http://www.okkam.org/oaie/person2-Person4861> .
+
+<http://www.okkam.org/oaie/person1-Person2110> owl:sameAs <http://www.okkam.org/oaie/person2-Address1111> .
+
+<http://www.okkam.org/oaie/person1-Person2120> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person2130> owl:sameAs <http://www.okkam.org/oaie/person2-Address1321> .
+
+<http://www.okkam.org/oaie/person1-Person2140> owl:sameAs <http://www.okkam.org/oaie/person2-Address1261> .
+
+<http://www.okkam.org/oaie/person1-Person2150> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person2160> owl:sameAs <http://www.okkam.org/oaie/person2-Address1111> .
+
+<http://www.okkam.org/oaie/person1-Person2170> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person2180> owl:sameAs <http://www.okkam.org/oaie/person2-Person2591> .
+
+<http://www.okkam.org/oaie/person1-Person2190> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person220> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person2200> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person2210> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person2220> owl:sameAs <http://www.okkam.org/oaie/person2-Person4861> .
+
+<http://www.okkam.org/oaie/person1-Person2230> owl:sameAs <http://www.okkam.org/oaie/person2-Person4861> .
+
+<http://www.okkam.org/oaie/person1-Person2240> owl:sameAs <http://www.okkam.org/oaie/person2-Address1261> .
+
+<http://www.okkam.org/oaie/person1-Person2250> owl:sameAs <http://www.okkam.org/oaie/person2-Person2591> .
+
+<http://www.okkam.org/oaie/person1-Person2260> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person2270> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person2280> owl:sameAs <http://www.okkam.org/oaie/person2-Address1971> .
+
+<http://www.okkam.org/oaie/person1-Person2290> owl:sameAs <http://www.okkam.org/oaie/person2-Person621> .
+
+<http://www.okkam.org/oaie/person1-Person230> owl:sameAs <http://www.okkam.org/oaie/person2-Address2011> .
+
+<http://www.okkam.org/oaie/person1-Person2300> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person2310> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person2320> owl:sameAs <http://www.okkam.org/oaie/person2-Address1111> .
+
+<http://www.okkam.org/oaie/person1-Person2330> owl:sameAs <http://www.okkam.org/oaie/person2-Address1111> .
+
+<http://www.okkam.org/oaie/person1-Person2340> owl:sameAs <http://www.okkam.org/oaie/person2-Person2591> .
+
+<http://www.okkam.org/oaie/person1-Person2350> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person2360> owl:sameAs <http://www.okkam.org/oaie/person2-Address4971> .
+
+<http://www.okkam.org/oaie/person1-Person2370> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person2380> owl:sameAs <http://www.okkam.org/oaie/person2-Address1261> .
+
+<http://www.okkam.org/oaie/person1-Person2390> owl:sameAs <http://www.okkam.org/oaie/person2-Address4971> .
+
+<http://www.okkam.org/oaie/person1-Person240> owl:sameAs <http://www.okkam.org/oaie/person2-Address2011> .
+
+<http://www.okkam.org/oaie/person1-Person2400> owl:sameAs <http://www.okkam.org/oaie/person2-Person2591> .
+
+<http://www.okkam.org/oaie/person1-Person2410> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person2420> owl:sameAs <http://www.okkam.org/oaie/person2-Person4861> .
+
+<http://www.okkam.org/oaie/person1-Person2430> owl:sameAs <http://www.okkam.org/oaie/person2-Address3731> .
+
+<http://www.okkam.org/oaie/person1-Person2440> owl:sameAs <http://www.okkam.org/oaie/person2-Address2021> .
+
+<http://www.okkam.org/oaie/person1-Person2450> owl:sameAs <http://www.okkam.org/oaie/person2-Address1971> .
+
+<http://www.okkam.org/oaie/person1-Person2460> owl:sameAs <http://www.okkam.org/oaie/person2-Address3261> .
+
+<http://www.okkam.org/oaie/person1-Person2470> owl:sameAs <http://www.okkam.org/oaie/person2-Person2591> .
+
+<http://www.okkam.org/oaie/person1-Person2480> owl:sameAs <http://www.okkam.org/oaie/person2-Address251> .
+
+<http://www.okkam.org/oaie/person1-Person2490> owl:sameAs <http://www.okkam.org/oaie/person2-Address1111> .
+
+<http://www.okkam.org/oaie/person1-Person250> owl:sameAs <http://www.okkam.org/oaie/person2-Person4861> .
+
+<http://www.okkam.org/oaie/person1-Person2500> owl:sameAs <http://www.okkam.org/oaie/person2-Address1191> .
+
+<http://www.okkam.org/oaie/person1-Person2510> owl:sameAs <http://www.okkam.org/oaie/person2-Person4861> .
+
+<http://www.okkam.org/oaie/person1-Person2520> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person2530> owl:sameAs <http://www.okkam.org/oaie/person2-Person2891> .
+
+<http://www.okkam.org/oaie/person1-Person2540> owl:sameAs <http://www.okkam.org/oaie/person2-Person4861> .
+
+<http://www.okkam.org/oaie/person1-Person2550> owl:sameAs <http://www.okkam.org/oaie/person2-Person4861> .
+
+<http://www.okkam.org/oaie/person1-Person2560> owl:sameAs <http://www.okkam.org/oaie/person2-Address1261> .
+
+<http://www.okkam.org/oaie/person1-Person2570> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person2580> owl:sameAs <http://www.okkam.org/oaie/person2-Address1111> .
+
+<http://www.okkam.org/oaie/person1-Person2590> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person260> owl:sameAs <http://www.okkam.org/oaie/person2-Person2891> .
+
+<http://www.okkam.org/oaie/person1-Person2600> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person2610> owl:sameAs <http://www.okkam.org/oaie/person2-Person4861> .
+
+<http://www.okkam.org/oaie/person1-Person2620> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person2630> owl:sameAs <http://www.okkam.org/oaie/person2-Person3321> .
+
+<http://www.okkam.org/oaie/person1-Person2640> owl:sameAs <http://www.okkam.org/oaie/person2-Address1321> .
+
+<http://www.okkam.org/oaie/person1-Person2650> owl:sameAs <http://www.okkam.org/oaie/person2-Person4861> .
+
+<http://www.okkam.org/oaie/person1-Person2660> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person2670> owl:sameAs <http://www.okkam.org/oaie/person2-Person2591> .
+
+<http://www.okkam.org/oaie/person1-Person2680> owl:sameAs <http://www.okkam.org/oaie/person2-Person4861> .
+
+<http://www.okkam.org/oaie/person1-Person2690> owl:sameAs <http://www.okkam.org/oaie/person2-Person1941> .
+
+<http://www.okkam.org/oaie/person1-Person270> owl:sameAs <http://www.okkam.org/oaie/person2-Person4251> .
+
+<http://www.okkam.org/oaie/person1-Person2700> owl:sameAs <http://www.okkam.org/oaie/person2-Address4971> .
+
+<http://www.okkam.org/oaie/person1-Person2710> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person2720> owl:sameAs <http://www.okkam.org/oaie/person2-Address4361> .
+
+<http://www.okkam.org/oaie/person1-Person2730> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person2740> owl:sameAs <http://www.okkam.org/oaie/person2-Address4171> .
+
+<http://www.okkam.org/oaie/person1-Person2750> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person2760> owl:sameAs <http://www.okkam.org/oaie/person2-Address1111> .
+
+<http://www.okkam.org/oaie/person1-Person2770> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person2780> owl:sameAs <http://www.okkam.org/oaie/person2-Address4361> .
+
+<http://www.okkam.org/oaie/person1-Person2790> owl:sameAs <http://www.okkam.org/oaie/person2-Address1111> .
+
+<http://www.okkam.org/oaie/person1-Person280> owl:sameAs <http://www.okkam.org/oaie/person2-Address1111> .
+
+<http://www.okkam.org/oaie/person1-Person2800> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person2810> owl:sameAs <http://www.okkam.org/oaie/person2-Person1221> .
+
+<http://www.okkam.org/oaie/person1-Person2820> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person2830> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person2840> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person2850> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person2860> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person2870> owl:sameAs <http://www.okkam.org/oaie/person2-Address1111> .
+
+<http://www.okkam.org/oaie/person1-Person2880> owl:sameAs <http://www.okkam.org/oaie/person2-Person2891> .
+
+<http://www.okkam.org/oaie/person1-Person2890> owl:sameAs <http://www.okkam.org/oaie/person2-Person4471> .
+
+<http://www.okkam.org/oaie/person1-Person290> owl:sameAs <http://www.okkam.org/oaie/person2-Person4861> .
+
+<http://www.okkam.org/oaie/person1-Person2900> owl:sameAs <http://www.okkam.org/oaie/person2-Person2891> .
+
+<http://www.okkam.org/oaie/person1-Person2910> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person2920> owl:sameAs <http://www.okkam.org/oaie/person2-Address1261> .
+
+<http://www.okkam.org/oaie/person1-Person2930> owl:sameAs <http://www.okkam.org/oaie/person2-Person1941> .
+
+<http://www.okkam.org/oaie/person1-Person2940> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person2950> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person2960> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person2970> owl:sameAs <http://www.okkam.org/oaie/person2-Person2591> .
+
+<http://www.okkam.org/oaie/person1-Person2980> owl:sameAs <http://www.okkam.org/oaie/person2-Person4861> .
+
+<http://www.okkam.org/oaie/person1-Person2990> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person30> owl:sameAs <http://www.okkam.org/oaie/person2-Person2591> .
+
+<http://www.okkam.org/oaie/person1-Person300> owl:sameAs <http://www.okkam.org/oaie/person2-Address561> .
+
+<http://www.okkam.org/oaie/person1-Person3000> owl:sameAs <http://www.okkam.org/oaie/person2-Person2131> .
+
+<http://www.okkam.org/oaie/person1-Person3010> owl:sameAs <http://www.okkam.org/oaie/person2-Address1111> .
+
+<http://www.okkam.org/oaie/person1-Person3020> owl:sameAs <http://www.okkam.org/oaie/person2-Person2591> .
+
+<http://www.okkam.org/oaie/person1-Person3030> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person3040> owl:sameAs <http://www.okkam.org/oaie/person2-Person4251> .
+
+<http://www.okkam.org/oaie/person1-Person3050> owl:sameAs <http://www.okkam.org/oaie/person2-Address1111> .
+
+<http://www.okkam.org/oaie/person1-Person3060> owl:sameAs <http://www.okkam.org/oaie/person2-Person2591> .
+
+<http://www.okkam.org/oaie/person1-Person3070> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person3080> owl:sameAs <http://www.okkam.org/oaie/person2-Person4861> .
+
+<http://www.okkam.org/oaie/person1-Person3090> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person310> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person3100> owl:sameAs <http://www.okkam.org/oaie/person2-Person2591> .
+
+<http://www.okkam.org/oaie/person1-Person3110> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person3120> owl:sameAs <http://www.okkam.org/oaie/person2-Person4861> .
+
+<http://www.okkam.org/oaie/person1-Person3130> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person3140> owl:sameAs <http://www.okkam.org/oaie/person2-Address2211> .
+
+<http://www.okkam.org/oaie/person1-Person3150> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person3160> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person3170> owl:sameAs <http://www.okkam.org/oaie/person2-Address3261> .
+
+<http://www.okkam.org/oaie/person1-Person3180> owl:sameAs <http://www.okkam.org/oaie/person2-Person4861> .
+
+<http://www.okkam.org/oaie/person1-Person3190> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person320> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person3200> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person3210> owl:sameAs <http://www.okkam.org/oaie/person2-Address1111> .
+
+<http://www.okkam.org/oaie/person1-Person3220> owl:sameAs <http://www.okkam.org/oaie/person2-Person2591> .
+
+<http://www.okkam.org/oaie/person1-Person3230> owl:sameAs <http://www.okkam.org/oaie/person2-Address1111> .
+
+<http://www.okkam.org/oaie/person1-Person3240> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person3250> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person3260> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person3270> owl:sameAs <http://www.okkam.org/oaie/person2-Address1971> .
+
+<http://www.okkam.org/oaie/person1-Person3280> owl:sameAs <http://www.okkam.org/oaie/person2-Address4971> .
+
+<http://www.okkam.org/oaie/person1-Person3290> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person330> owl:sameAs <http://www.okkam.org/oaie/person2-Address1111> .
+
+<http://www.okkam.org/oaie/person1-Person3300> owl:sameAs <http://www.okkam.org/oaie/person2-Address1261> .
+
+<http://www.okkam.org/oaie/person1-Person3310> owl:sameAs <http://www.okkam.org/oaie/person2-Person3961> .
+
+<http://www.okkam.org/oaie/person1-Person3320> owl:sameAs <http://www.okkam.org/oaie/person2-Person4251> .
+
+<http://www.okkam.org/oaie/person1-Person3330> owl:sameAs <http://www.okkam.org/oaie/person2-Address4971> .
+
+<http://www.okkam.org/oaie/person1-Person3340> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person3350> owl:sameAs <http://www.okkam.org/oaie/person2-Address1111> .
+
+<http://www.okkam.org/oaie/person1-Person3360> owl:sameAs <http://www.okkam.org/oaie/person2-Person2891> .
+
+<http://www.okkam.org/oaie/person1-Person3370> owl:sameAs <http://www.okkam.org/oaie/person2-Address3261> .
+
+<http://www.okkam.org/oaie/person1-Person3380> owl:sameAs <http://www.okkam.org/oaie/person2-Address2011> .
+
+<http://www.okkam.org/oaie/person1-Person3390> owl:sameAs <http://www.okkam.org/oaie/person2-Person1741> .
+
+<http://www.okkam.org/oaie/person1-Person340> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person3400> owl:sameAs <http://www.okkam.org/oaie/person2-Address561> .
+
+<http://www.okkam.org/oaie/person1-Person3410> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person3420> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person3430> owl:sameAs <http://www.okkam.org/oaie/person2-Person4861> .
+
+<http://www.okkam.org/oaie/person1-Person3440> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person3450> owl:sameAs <http://www.okkam.org/oaie/person2-Address4971> .
+
+<http://www.okkam.org/oaie/person1-Person3460> owl:sameAs <http://www.okkam.org/oaie/person2-Person1941> .
+
+<http://www.okkam.org/oaie/person1-Person3470> owl:sameAs <http://www.okkam.org/oaie/person2-Address2981> .
+
+<http://www.okkam.org/oaie/person1-Person3480> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person3490> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person350> owl:sameAs <http://www.okkam.org/oaie/person2-Address561> .
+
+<http://www.okkam.org/oaie/person1-Person3500> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person3510> owl:sameAs <http://www.okkam.org/oaie/person2-Address1111> .
+
+<http://www.okkam.org/oaie/person1-Person3520> owl:sameAs <http://www.okkam.org/oaie/person2-Address1111> .
+
+<http://www.okkam.org/oaie/person1-Person3530> owl:sameAs <http://www.okkam.org/oaie/person2-Person2891> .
+
+<http://www.okkam.org/oaie/person1-Person3540> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person3550> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person3560> owl:sameAs <http://www.okkam.org/oaie/person2-Person4861> .
+
+<http://www.okkam.org/oaie/person1-Person3570> owl:sameAs <http://www.okkam.org/oaie/person2-Address3261> .
+
+<http://www.okkam.org/oaie/person1-Person3580> owl:sameAs <http://www.okkam.org/oaie/person2-Address1111> .
+
+<http://www.okkam.org/oaie/person1-Person3590> owl:sameAs <http://www.okkam.org/oaie/person2-Address1261> .
+
+<http://www.okkam.org/oaie/person1-Person360> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person3600> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person3610> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person3620> owl:sameAs <http://www.okkam.org/oaie/person2-Person2591> .
+
+<http://www.okkam.org/oaie/person1-Person3630> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person3640> owl:sameAs <http://www.okkam.org/oaie/person2-Address1111> .
+
+<http://www.okkam.org/oaie/person1-Person3650> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person3660> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person3670> owl:sameAs <http://www.okkam.org/oaie/person2-Person2591> .
+
+<http://www.okkam.org/oaie/person1-Person3680> owl:sameAs <http://www.okkam.org/oaie/person2-Person4861> .
+
+<http://www.okkam.org/oaie/person1-Person3690> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person370> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person3700> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person3710> owl:sameAs <http://www.okkam.org/oaie/person2-Address4361> .
+
+<http://www.okkam.org/oaie/person1-Person3720> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person3730> owl:sameAs <http://www.okkam.org/oaie/person2-Address1111> .
+
+<http://www.okkam.org/oaie/person1-Person3740> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person3750> owl:sameAs <http://www.okkam.org/oaie/person2-Address1111> .
+
+<http://www.okkam.org/oaie/person1-Person3760> owl:sameAs <http://www.okkam.org/oaie/person2-Person2591> .
+
+<http://www.okkam.org/oaie/person1-Person3770> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person3780> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person3790> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person380> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person3800> owl:sameAs <http://www.okkam.org/oaie/person2-Person4251> .
+
+<http://www.okkam.org/oaie/person1-Person3810> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person3820> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person3830> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person3840> owl:sameAs <http://www.okkam.org/oaie/person2-Address4971> .
+
+<http://www.okkam.org/oaie/person1-Person3850> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person3860> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person3870> owl:sameAs <http://www.okkam.org/oaie/person2-Person4861> .
+
+<http://www.okkam.org/oaie/person1-Person3880> owl:sameAs <http://www.okkam.org/oaie/person2-Address1871> .
+
+<http://www.okkam.org/oaie/person1-Person3890> owl:sameAs <http://www.okkam.org/oaie/person2-Address1111> .
+
+<http://www.okkam.org/oaie/person1-Person390> owl:sameAs <http://www.okkam.org/oaie/person2-Address2341> .
+
+<http://www.okkam.org/oaie/person1-Person3900> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person3910> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person3920> owl:sameAs <http://www.okkam.org/oaie/person2-Address1261> .
+
+<http://www.okkam.org/oaie/person1-Person3930> owl:sameAs <http://www.okkam.org/oaie/person2-Address561> .
+
+<http://www.okkam.org/oaie/person1-Person3940> owl:sameAs <http://www.okkam.org/oaie/person2-Person1941> .
+
+<http://www.okkam.org/oaie/person1-Person3950> owl:sameAs <http://www.okkam.org/oaie/person2-Address1111> .
+
+<http://www.okkam.org/oaie/person1-Person3960> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person3970> owl:sameAs <http://www.okkam.org/oaie/person2-Person3321> .
+
+<http://www.okkam.org/oaie/person1-Person3980> owl:sameAs <http://www.okkam.org/oaie/person2-Address1261> .
+
+<http://www.okkam.org/oaie/person1-Person3990> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person40> owl:sameAs <http://www.okkam.org/oaie/person2-Person2591> .
+
+<http://www.okkam.org/oaie/person1-Person400> owl:sameAs <http://www.okkam.org/oaie/person2-Person4861> .
+
+<http://www.okkam.org/oaie/person1-Person4000> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person4010> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person4020> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person4030> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person4040> owl:sameAs <http://www.okkam.org/oaie/person2-Address1111> .
+
+<http://www.okkam.org/oaie/person1-Person4050> owl:sameAs <http://www.okkam.org/oaie/person2-Address1261> .
+
+<http://www.okkam.org/oaie/person1-Person4060> owl:sameAs <http://www.okkam.org/oaie/person2-Person3441> .
+
+<http://www.okkam.org/oaie/person1-Person4070> owl:sameAs <http://www.okkam.org/oaie/person2-Address4971> .
+
+<http://www.okkam.org/oaie/person1-Person4080> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person4090> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person410> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person4100> owl:sameAs <http://www.okkam.org/oaie/person2-Address4971> .
+
+<http://www.okkam.org/oaie/person1-Person4110> owl:sameAs <http://www.okkam.org/oaie/person2-Address1111> .
+
+<http://www.okkam.org/oaie/person1-Person4120> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person4130> owl:sameAs <http://www.okkam.org/oaie/person2-Person81> .
+
+<http://www.okkam.org/oaie/person1-Person4140> owl:sameAs <http://www.okkam.org/oaie/person2-Person2591> .
+
+<http://www.okkam.org/oaie/person1-Person4150> owl:sameAs <http://www.okkam.org/oaie/person2-Address1111> .
+
+<http://www.okkam.org/oaie/person1-Person4160> owl:sameAs <http://www.okkam.org/oaie/person2-Person2591> .
+
+<http://www.okkam.org/oaie/person1-Person4170> owl:sameAs <http://www.okkam.org/oaie/person2-Person2131> .
+
+<http://www.okkam.org/oaie/person1-Person4180> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person4190> owl:sameAs <http://www.okkam.org/oaie/person2-Address1111> .
+
+<http://www.okkam.org/oaie/person1-Person420> owl:sameAs <http://www.okkam.org/oaie/person2-Person2891> .
+
+<http://www.okkam.org/oaie/person1-Person4200> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person4210> owl:sameAs <http://www.okkam.org/oaie/person2-Address4971> .
+
+<http://www.okkam.org/oaie/person1-Person4220> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person4230> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person4240> owl:sameAs <http://www.okkam.org/oaie/person2-Address1111> .
+
+<http://www.okkam.org/oaie/person1-Person4250> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person4260> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person4270> owl:sameAs <http://www.okkam.org/oaie/person2-Address1261> .
+
+<http://www.okkam.org/oaie/person1-Person4280> owl:sameAs <http://www.okkam.org/oaie/person2-Address1111> .
+
+<http://www.okkam.org/oaie/person1-Person4290> owl:sameAs <http://www.okkam.org/oaie/person2-Person4861> .
+
+<http://www.okkam.org/oaie/person1-Person430> owl:sameAs <http://www.okkam.org/oaie/person2-Person3121> .
+
+<http://www.okkam.org/oaie/person1-Person4300> owl:sameAs <http://www.okkam.org/oaie/person2-Person4861> .
+
+<http://www.okkam.org/oaie/person1-Person4310> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person4320> owl:sameAs <http://www.okkam.org/oaie/person2-Person2891> .
+
+<http://www.okkam.org/oaie/person1-Person4330> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person4340> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person4350> owl:sameAs <http://www.okkam.org/oaie/person2-Address1111> .
+
+<http://www.okkam.org/oaie/person1-Person4360> owl:sameAs <http://www.okkam.org/oaie/person2-Address1111> .
+
+<http://www.okkam.org/oaie/person1-Person4370> owl:sameAs <http://www.okkam.org/oaie/person2-Person2591> .
+
+<http://www.okkam.org/oaie/person1-Person4380> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person4390> owl:sameAs <http://www.okkam.org/oaie/person2-Address1111> .
+
+<http://www.okkam.org/oaie/person1-Person440> owl:sameAs <http://www.okkam.org/oaie/person2-Address1111> .
+
+<http://www.okkam.org/oaie/person1-Person4400> owl:sameAs <http://www.okkam.org/oaie/person2-Address1111> .
+
+<http://www.okkam.org/oaie/person1-Person4410> owl:sameAs <http://www.okkam.org/oaie/person2-Address1111> .
+
+<http://www.okkam.org/oaie/person1-Person4420> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person4430> owl:sameAs <http://www.okkam.org/oaie/person2-Address1261> .
+
+<http://www.okkam.org/oaie/person1-Person4440> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person4450> owl:sameAs <http://www.okkam.org/oaie/person2-Person3321> .
+
+<http://www.okkam.org/oaie/person1-Person4460> owl:sameAs <http://www.okkam.org/oaie/person2-Address1111> .
+
+<http://www.okkam.org/oaie/person1-Person4470> owl:sameAs <http://www.okkam.org/oaie/person2-Person2591> .
+
+<http://www.okkam.org/oaie/person1-Person4480> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person4490> owl:sameAs <http://www.okkam.org/oaie/person2-Person3961> .
+
+<http://www.okkam.org/oaie/person1-Person450> owl:sameAs <http://www.okkam.org/oaie/person2-Person2891> .
+
+<http://www.okkam.org/oaie/person1-Person4500> owl:sameAs <http://www.okkam.org/oaie/person2-Person4861> .
+
+<http://www.okkam.org/oaie/person1-Person4510> owl:sameAs <http://www.okkam.org/oaie/person2-Address1411> .
+
+<http://www.okkam.org/oaie/person1-Person4520> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person4530> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person4540> owl:sameAs <http://www.okkam.org/oaie/person2-Person3121> .
+
+<http://www.okkam.org/oaie/person1-Person4550> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person4560> owl:sameAs <http://www.okkam.org/oaie/person2-Address1111> .
+
+<http://www.okkam.org/oaie/person1-Person4570> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person4580> owl:sameAs <http://www.okkam.org/oaie/person2-Address1111> .
+
+<http://www.okkam.org/oaie/person1-Person4590> owl:sameAs <http://www.okkam.org/oaie/person2-Address1111> .
+
+<http://www.okkam.org/oaie/person1-Person460> owl:sameAs <http://www.okkam.org/oaie/person2-Address1111> .
+
+<http://www.okkam.org/oaie/person1-Person4600> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person4610> owl:sameAs <http://www.okkam.org/oaie/person2-Address1571> .
+
+<http://www.okkam.org/oaie/person1-Person4620> owl:sameAs <http://www.okkam.org/oaie/person2-Address561> .
+
+<http://www.okkam.org/oaie/person1-Person4630> owl:sameAs <http://www.okkam.org/oaie/person2-Address4971> .
+
+<http://www.okkam.org/oaie/person1-Person4640> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person4650> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person4660> owl:sameAs <http://www.okkam.org/oaie/person2-Person4251> .
+
+<http://www.okkam.org/oaie/person1-Person4670> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person4680> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person4690> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person470> owl:sameAs <http://www.okkam.org/oaie/person2-Address4941> .
+
+<http://www.okkam.org/oaie/person1-Person4700> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person4710> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person4720> owl:sameAs <http://www.okkam.org/oaie/person2-Person4251> .
+
+<http://www.okkam.org/oaie/person1-Person4730> owl:sameAs <http://www.okkam.org/oaie/person2-Person2891> .
+
+<http://www.okkam.org/oaie/person1-Person4740> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person4750> owl:sameAs <http://www.okkam.org/oaie/person2-Person2591> .
+
+<http://www.okkam.org/oaie/person1-Person4760> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person4770> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person4780> owl:sameAs <http://www.okkam.org/oaie/person2-Person3961> .
+
+<http://www.okkam.org/oaie/person1-Person4790> owl:sameAs <http://www.okkam.org/oaie/person2-Person4861> .
+
+<http://www.okkam.org/oaie/person1-Person480> owl:sameAs <http://www.okkam.org/oaie/person2-Person2591> .
+
+<http://www.okkam.org/oaie/person1-Person4800> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person4810> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person4820> owl:sameAs <http://www.okkam.org/oaie/person2-Address4971> .
+
+<http://www.okkam.org/oaie/person1-Person4830> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person4840> owl:sameAs <http://www.okkam.org/oaie/person2-Address4971> .
+
+<http://www.okkam.org/oaie/person1-Person4850> owl:sameAs <http://www.okkam.org/oaie/person2-Address1111> .
+
+<http://www.okkam.org/oaie/person1-Person4860> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person4870> owl:sameAs <http://www.okkam.org/oaie/person2-Address1321> .
+
+<http://www.okkam.org/oaie/person1-Person4880> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person4890> owl:sameAs <http://www.okkam.org/oaie/person2-Person1471> .
+
+<http://www.okkam.org/oaie/person1-Person490> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person4900> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person4910> owl:sameAs <http://www.okkam.org/oaie/person2-Person91> .
+
+<http://www.okkam.org/oaie/person1-Person4920> owl:sameAs <http://www.okkam.org/oaie/person2-Address4971> .
+
+<http://www.okkam.org/oaie/person1-Person4930> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person4940> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person4950> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person4960> owl:sameAs <http://www.okkam.org/oaie/person2-Person1741> .
+
+<http://www.okkam.org/oaie/person1-Person4970> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person4980> owl:sameAs <http://www.okkam.org/oaie/person2-Person4861> .
+
+<http://www.okkam.org/oaie/person1-Person4990> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person50> owl:sameAs <http://www.okkam.org/oaie/person2-Address4971> .
+
+<http://www.okkam.org/oaie/person1-Person500> owl:sameAs <http://www.okkam.org/oaie/person2-Address1111> .
+
+<http://www.okkam.org/oaie/person1-Person510> owl:sameAs <http://www.okkam.org/oaie/person2-Address4941> .
+
+<http://www.okkam.org/oaie/person1-Person520> owl:sameAs <http://www.okkam.org/oaie/person2-Address1321> .
+
+<http://www.okkam.org/oaie/person1-Person530> owl:sameAs <http://www.okkam.org/oaie/person2-Person2591> .
+
+<http://www.okkam.org/oaie/person1-Person540> owl:sameAs <http://www.okkam.org/oaie/person2-Person3321> .
+
+<http://www.okkam.org/oaie/person1-Person550> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person560> owl:sameAs <http://www.okkam.org/oaie/person2-Address1111> .
+
+<http://www.okkam.org/oaie/person1-Person570> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person580> owl:sameAs <http://www.okkam.org/oaie/person2-Person2591> .
+
+<http://www.okkam.org/oaie/person1-Person590> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person60> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person600> owl:sameAs <http://www.okkam.org/oaie/person2-Address4971> .
+
+<http://www.okkam.org/oaie/person1-Person610> owl:sameAs <http://www.okkam.org/oaie/person2-Person1741> .
+
+<http://www.okkam.org/oaie/person1-Person620> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person630> owl:sameAs <http://www.okkam.org/oaie/person2-Person3271> .
+
+<http://www.okkam.org/oaie/person1-Person640> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person650> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person660> owl:sameAs <http://www.okkam.org/oaie/person2-Person2591> .
+
+<http://www.okkam.org/oaie/person1-Person670> owl:sameAs <http://www.okkam.org/oaie/person2-Person4861> .
+
+<http://www.okkam.org/oaie/person1-Person680> owl:sameAs <http://www.okkam.org/oaie/person2-Person2591> .
+
+<http://www.okkam.org/oaie/person1-Person690> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person70> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person700> owl:sameAs <http://www.okkam.org/oaie/person2-Address2211> .
+
+<http://www.okkam.org/oaie/person1-Person710> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person720> owl:sameAs <http://www.okkam.org/oaie/person2-Address1111> .
+
+<http://www.okkam.org/oaie/person1-Person730> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person740> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person750> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person760> owl:sameAs <http://www.okkam.org/oaie/person2-Person2591> .
+
+<http://www.okkam.org/oaie/person1-Person770> owl:sameAs <http://www.okkam.org/oaie/person2-Address1111> .
+
+<http://www.okkam.org/oaie/person1-Person780> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person790> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person80> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person800> owl:sameAs <http://www.okkam.org/oaie/person2-Address4971> .
+
+<http://www.okkam.org/oaie/person1-Person810> owl:sameAs <http://www.okkam.org/oaie/person2-Address1111> .
+
+<http://www.okkam.org/oaie/person1-Person820> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person830> owl:sameAs <http://www.okkam.org/oaie/person2-Person4861> .
+
+<http://www.okkam.org/oaie/person1-Person840> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person850> owl:sameAs <http://www.okkam.org/oaie/person2-Person2591> .
+
+<http://www.okkam.org/oaie/person1-Person860> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person870> owl:sameAs <http://www.okkam.org/oaie/person2-Person141> .
+
+<http://www.okkam.org/oaie/person1-Person880> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person890> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person90> owl:sameAs <http://www.okkam.org/oaie/person2-Person2591> .
+
+<http://www.okkam.org/oaie/person1-Person900> owl:sameAs <http://www.okkam.org/oaie/person2-Person4861> .
+
+<http://www.okkam.org/oaie/person1-Person910> owl:sameAs <http://www.okkam.org/oaie/person2-Address1111> .
+
+<http://www.okkam.org/oaie/person1-Person920> owl:sameAs <http://www.okkam.org/oaie/person2-Address1111> .
+
+<http://www.okkam.org/oaie/person1-Person930> owl:sameAs <http://www.okkam.org/oaie/person2-Address51> .
+
+<http://www.okkam.org/oaie/person1-Person940> owl:sameAs <http://www.okkam.org/oaie/person2-Address561> .
+
+<http://www.okkam.org/oaie/person1-Person950> owl:sameAs <http://www.okkam.org/oaie/person2-Address4971> .
+
+<http://www.okkam.org/oaie/person1-Person960> owl:sameAs <http://www.okkam.org/oaie/person2-Address3261> .
+
+<http://www.okkam.org/oaie/person1-Person970> owl:sameAs <http://www.okkam.org/oaie/person2-Address3261> .
+
+<http://www.okkam.org/oaie/person1-Person980> owl:sameAs <http://www.okkam.org/oaie/person2-Address1111> .
+
+<http://www.okkam.org/oaie/person1-Person990> owl:sameAs <http://www.okkam.org/oaie/person2-Address561> .
+

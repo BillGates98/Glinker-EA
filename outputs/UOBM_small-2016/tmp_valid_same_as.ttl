@@ -1,0 +1,1740 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+<http://semantics.crl.ibm.com/univ-bench-dl.owl> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#AmericanFootball> .
+
+<http://semantics.crl.ibm.com/univ-bench-dl.owl#BaseballLover> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#SwimmingLover> .
+
+<http://semantics.crl.ibm.com/univ-bench-dl.owl#BasketBallLover> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#SwimmingLover> .
+
+<http://semantics.crl.ibm.com/univ-bench-dl.owl#Chair> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#BasketBallFan> .
+
+<http://semantics.crl.ibm.com/univ-bench-dl.owl#Dean> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#BasketBallFan> .
+
+<http://semantics.crl.ibm.com/univ-bench-dl.owl#Director> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#age> .
+
+<http://semantics.crl.ibm.com/univ-bench-dl.owl#Employee> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#BasketBallFan> .
+
+<http://semantics.crl.ibm.com/univ-bench-dl.owl#GraduateStudent> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#BasketBallFan> .
+
+<http://semantics.crl.ibm.com/univ-bench-dl.owl#LeisureStudent> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#love> .
+
+<http://semantics.crl.ibm.com/univ-bench-dl.owl#NonScienceStudent> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#BasketBallFan> .
+
+<http://semantics.crl.ibm.com/univ-bench-dl.owl#PeopleWithManyHobbies> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#SwimmingLover> .
+
+<http://semantics.crl.ibm.com/univ-bench-dl.owl#Person> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#BasketBallFan> .
+
+<http://semantics.crl.ibm.com/univ-bench-dl.owl#ResearchAssistant> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#age> .
+
+<http://semantics.crl.ibm.com/univ-bench-dl.owl#SportsLover> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#BasketBallFan> .
+
+<http://semantics.crl.ibm.com/univ-bench-dl.owl#Student> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#BasketBallFan> .
+
+<http://semantics.crl.ibm.com/univ-bench-dl.owl#TeachingAssistant> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#SwimmingLover> .
+
+<http://semantics.crl.ibm.com/univ-bench-dl.owl#WomanCollege> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#BasketBallFan> .
+
+<http://www.College0.University0.edu/woman_student0> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student1> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student10> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student100> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student101> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student102> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student103> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student104> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student105> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student106> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student107> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student108> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student109> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student11> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student110> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student111> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student112> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student113> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student114> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student115> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student116> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student117> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student118> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student119> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student12> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student120> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student121> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student122> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student123> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student124> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student125> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student126> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student127> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student128> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student129> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student13> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student130> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student131> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student132> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student133> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student134> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student135> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student136> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student137> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student138> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student139> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student14> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student140> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student141> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student142> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student143> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student144> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student145> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student146> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student147> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student148> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student149> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student15> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student150> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student151> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student152> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student153> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student154> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student155> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student156> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student157> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student158> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student159> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student16> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student160> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student161> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student162> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student163> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student164> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student165> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student166> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student167> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student168> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student169> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student17> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student170> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student171> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student172> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student173> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student174> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student175> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student176> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student177> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student178> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student179> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student18> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student180> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student181> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student182> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student183> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student184> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student185> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student186> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student187> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student188> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student19> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student190> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student191> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student192> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student193> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student194> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student195> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student196> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student197> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student198> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student199> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student2> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student20> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student200> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student201> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student202> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student203> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student204> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student205> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student206> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student207> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student208> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student209> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student21> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student210> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student211> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student212> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student213> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student214> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student215> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student216> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student217> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student218> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student219> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student22> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student220> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student221> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student222> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student223> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student224> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student225> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student226> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student227> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student228> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student229> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student23> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student230> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student231> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student232> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student233> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student234> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student235> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student236> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student237> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student238> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student239> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student24> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student240> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student241> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student242> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student243> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student244> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student245> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student246> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student247> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student248> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student249> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student25> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student250> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student251> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student252> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student253> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student254> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student255> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student256> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student257> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student258> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student259> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student26> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student260> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student261> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student262> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student263> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student27> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student28> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student29> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student3> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student30> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student31> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student32> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student33> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student34> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student35> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student36> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student37> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student38> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student39> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student4> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student40> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student41> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student42> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student43> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student44> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student45> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student46> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student47> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student48> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student49> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student5> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student50> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student51> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student52> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student53> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student54> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student55> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student56> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student57> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student58> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student59> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student6> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student60> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student61> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student62> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student63> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student64> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student65> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student66> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student67> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student68> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student69> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student7> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student70> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student71> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student72> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student73> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student74> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student75> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student76> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student77> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student78> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student79> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student8> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student80> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student81> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student82> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student83> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student84> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student85> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student86> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student87> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student88> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student89> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student9> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student90> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student91> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student92> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student93> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student94> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student95> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student96> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student97> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student98> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.College0.University0.edu/woman_student99> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#Schedule> .
+
+<http://www.Department0.University0.edu/AssistantProfessor0> owl:sameAs <http://www.ldbc.eu/50724473-c66d-4780-a2f8-75cd8095f5f4> .
+
+<http://www.Department0.University0.edu/AssistantProfessor1> owl:sameAs <http://www.ldbc.eu/50724473-c66d-4780-a2f8-75cd8095f5f4> .
+
+<http://www.Department0.University0.edu/AssistantProfessor2> owl:sameAs <http://www.ldbc.eu/50724473-c66d-4780-a2f8-75cd8095f5f4> .
+
+<http://www.Department0.University0.edu/AssistantProfessor3> owl:sameAs <http://www.ldbc.eu/50724473-c66d-4780-a2f8-75cd8095f5f4> .
+
+<http://www.Department0.University0.edu/AssistantProfessor4> owl:sameAs <http://www.ldbc.eu/50724473-c66d-4780-a2f8-75cd8095f5f4> .
+
+<http://www.Department0.University0.edu/AssistantProfessor5> owl:sameAs <http://www.ldbc.eu/50724473-c66d-4780-a2f8-75cd8095f5f4> .
+
+<http://www.Department0.University0.edu/AssistantProfessor6> owl:sameAs <http://www.ldbc.eu/50724473-c66d-4780-a2f8-75cd8095f5f4> .
+
+<http://www.Department0.University0.edu/AssociateProfessor0> owl:sameAs <http://www.ldbc.eu/50724473-c66d-4780-a2f8-75cd8095f5f4> .
+
+<http://www.Department0.University0.edu/AssociateProfessor1> owl:sameAs <http://www.ldbc.eu/50724473-c66d-4780-a2f8-75cd8095f5f4> .
+
+<http://www.Department0.University0.edu/AssociateProfessor10> owl:sameAs <http://www.ldbc.eu/50724473-c66d-4780-a2f8-75cd8095f5f4> .
+
+<http://www.Department0.University0.edu/AssociateProfessor2> owl:sameAs <http://www.ldbc.eu/50724473-c66d-4780-a2f8-75cd8095f5f4> .
+
+<http://www.Department0.University0.edu/AssociateProfessor3> owl:sameAs <http://www.ldbc.eu/50724473-c66d-4780-a2f8-75cd8095f5f4> .
+
+<http://www.Department0.University0.edu/AssociateProfessor4> owl:sameAs <http://www.ldbc.eu/50724473-c66d-4780-a2f8-75cd8095f5f4> .
+
+<http://www.Department0.University0.edu/AssociateProfessor5> owl:sameAs <http://www.ldbc.eu/50724473-c66d-4780-a2f8-75cd8095f5f4> .
+
+<http://www.Department0.University0.edu/AssociateProfessor6> owl:sameAs <http://www.ldbc.eu/50724473-c66d-4780-a2f8-75cd8095f5f4> .
+
+<http://www.Department0.University0.edu/AssociateProfessor7> owl:sameAs <http://www.ldbc.eu/50724473-c66d-4780-a2f8-75cd8095f5f4> .
+
+<http://www.Department0.University0.edu/AssociateProfessor8> owl:sameAs <http://www.ldbc.eu/50724473-c66d-4780-a2f8-75cd8095f5f4> .
+
+<http://www.Department0.University0.edu/AssociateProfessor9> owl:sameAs <http://www.ldbc.eu/50724473-c66d-4780-a2f8-75cd8095f5f4> .
+
+<http://www.Department0.University0.edu/Chair0> owl:sameAs <http://www.ldbc.eu/50724473-c66d-4780-a2f8-75cd8095f5f4> .
+
+<http://www.Department0.University0.edu/ClericalStaff1> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#AmericanFootball> .
+
+<http://www.Department0.University0.edu/FullProfessor0> owl:sameAs <http://www.ldbc.eu/50724473-c66d-4780-a2f8-75cd8095f5f4> .
+
+<http://www.Department0.University0.edu/FullProfessor1> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#ClericalStaff> .
+
+<http://www.Department0.University0.edu/FullProfessor2> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#ClericalStaff> .
+
+<http://www.Department0.University0.edu/FullProfessor3> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#ClericalStaff> .
+
+<http://www.Department0.University0.edu/FullProfessor4> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#ClericalStaff> .
+
+<http://www.Department0.University0.edu/FullProfessor5> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#ClericalStaff> .
+
+<http://www.Department0.University0.edu/FullProfessor6> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#ClericalStaff> .
+
+<http://www.Department0.University0.edu/FullProfessor7> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#ClericalStaff> .
+
+<http://www.Department0.University0.edu/GraduateStudent0> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/GraduateStudent1> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/GraduateStudent10> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/GraduateStudent100> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/GraduateStudent101> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/GraduateStudent102> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/GraduateStudent103> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/GraduateStudent104> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/GraduateStudent105> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/GraduateStudent106> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/GraduateStudent107> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/GraduateStudent108> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/GraduateStudent109> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/GraduateStudent11> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/GraduateStudent110> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/GraduateStudent111> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/GraduateStudent112> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/GraduateStudent113> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/GraduateStudent114> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/GraduateStudent115> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/GraduateStudent116> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/GraduateStudent117> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/GraduateStudent118> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/GraduateStudent119> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/GraduateStudent12> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/GraduateStudent120> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/GraduateStudent121> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/GraduateStudent122> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/GraduateStudent123> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/GraduateStudent124> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/GraduateStudent125> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/GraduateStudent126> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/GraduateStudent127> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/GraduateStudent128> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/GraduateStudent13> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/GraduateStudent130> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/GraduateStudent131> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/GraduateStudent14> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/GraduateStudent15> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/GraduateStudent16> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/GraduateStudent17> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/GraduateStudent18> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/GraduateStudent19> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/GraduateStudent2> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/GraduateStudent20> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/GraduateStudent21> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/GraduateStudent22> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/GraduateStudent23> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/GraduateStudent24> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/GraduateStudent25> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/GraduateStudent26> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/GraduateStudent27> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/GraduateStudent28> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/GraduateStudent29> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/GraduateStudent3> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/GraduateStudent30> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/GraduateStudent31> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/GraduateStudent32> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/GraduateStudent33> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/GraduateStudent34> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/GraduateStudent35> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/GraduateStudent36> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/GraduateStudent37> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/GraduateStudent38> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/GraduateStudent39> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/GraduateStudent4> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/GraduateStudent40> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/GraduateStudent41> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/GraduateStudent42> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/GraduateStudent43> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/GraduateStudent44> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/GraduateStudent45> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/GraduateStudent46> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/GraduateStudent47> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/GraduateStudent48> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/GraduateStudent49> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/GraduateStudent5> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/GraduateStudent50> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/GraduateStudent51> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/GraduateStudent52> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/GraduateStudent53> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/GraduateStudent54> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/GraduateStudent55> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/GraduateStudent56> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/GraduateStudent57> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/GraduateStudent58> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/GraduateStudent59> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/GraduateStudent6> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/GraduateStudent61> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/GraduateStudent62> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/GraduateStudent63> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/GraduateStudent64> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/GraduateStudent65> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/GraduateStudent66> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/GraduateStudent67> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/GraduateStudent68> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/GraduateStudent69> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/GraduateStudent7> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/GraduateStudent70> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/GraduateStudent71> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/GraduateStudent72> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/GraduateStudent73> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/GraduateStudent74> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/GraduateStudent75> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/GraduateStudent76> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/GraduateStudent77> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/GraduateStudent78> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/GraduateStudent79> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/GraduateStudent8> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/GraduateStudent80> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/GraduateStudent81> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/GraduateStudent82> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/GraduateStudent83> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/GraduateStudent84> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/GraduateStudent85> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/GraduateStudent86> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/GraduateStudent87> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/GraduateStudent88> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/GraduateStudent89> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/GraduateStudent9> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/GraduateStudent90> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/GraduateStudent91> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/GraduateStudent92> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/GraduateStudent93> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/GraduateStudent94> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/GraduateStudent95> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/GraduateStudent96> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/GraduateStudent97> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/GraduateStudent98> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/GraduateStudent99> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/Lecturer0> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/Lecturer1> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/Lecturer2> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/Lecturer3> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/Lecturer4> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/SameIndividual0> owl:sameAs <http://www.ldbc.eu/50724473-c66d-4780-a2f8-75cd8095f5f4> .
+
+<http://www.Department0.University0.edu/SystemsStaff0> owl:sameAs <http://www.ldbc.eu/a87cedb4-c931-4b06-bc78-18f4d7a66cc5> .
+
+<http://www.Department0.University0.edu/SystemsStaff1> owl:sameAs <http://www.ldbc.eu/a87cedb4-c931-4b06-bc78-18f4d7a66cc5> .
+
+<http://www.Department0.University0.edu/SystemsStaff10> owl:sameAs <http://www.ldbc.eu/a87cedb4-c931-4b06-bc78-18f4d7a66cc5> .
+
+<http://www.Department0.University0.edu/SystemsStaff11> owl:sameAs <http://www.ldbc.eu/a87cedb4-c931-4b06-bc78-18f4d7a66cc5> .
+
+<http://www.Department0.University0.edu/SystemsStaff12> owl:sameAs <http://www.ldbc.eu/a87cedb4-c931-4b06-bc78-18f4d7a66cc5> .
+
+<http://www.Department0.University0.edu/SystemsStaff13> owl:sameAs <http://www.ldbc.eu/a87cedb4-c931-4b06-bc78-18f4d7a66cc5> .
+
+<http://www.Department0.University0.edu/SystemsStaff14> owl:sameAs <http://www.ldbc.eu/a87cedb4-c931-4b06-bc78-18f4d7a66cc5> .
+
+<http://www.Department0.University0.edu/SystemsStaff2> owl:sameAs <http://www.ldbc.eu/a87cedb4-c931-4b06-bc78-18f4d7a66cc5> .
+
+<http://www.Department0.University0.edu/SystemsStaff3> owl:sameAs <http://www.ldbc.eu/a87cedb4-c931-4b06-bc78-18f4d7a66cc5> .
+
+<http://www.Department0.University0.edu/SystemsStaff4> owl:sameAs <http://www.ldbc.eu/a87cedb4-c931-4b06-bc78-18f4d7a66cc5> .
+
+<http://www.Department0.University0.edu/SystemsStaff5> owl:sameAs <http://www.ldbc.eu/a87cedb4-c931-4b06-bc78-18f4d7a66cc5> .
+
+<http://www.Department0.University0.edu/SystemsStaff6> owl:sameAs <http://www.ldbc.eu/a87cedb4-c931-4b06-bc78-18f4d7a66cc5> .
+
+<http://www.Department0.University0.edu/SystemsStaff7> owl:sameAs <http://www.ldbc.eu/a87cedb4-c931-4b06-bc78-18f4d7a66cc5> .
+
+<http://www.Department0.University0.edu/SystemsStaff8> owl:sameAs <http://www.ldbc.eu/a87cedb4-c931-4b06-bc78-18f4d7a66cc5> .
+
+<http://www.Department0.University0.edu/SystemsStaff9> owl:sameAs <http://www.ldbc.eu/a87cedb4-c931-4b06-bc78-18f4d7a66cc5> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent0> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent1> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent10> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent100> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent101> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent102> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent103> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent104> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent105> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent106> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent107> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent108> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent109> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent11> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent110> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent111> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent112> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent113> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent114> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent115> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent116> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent117> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent118> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent119> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent12> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent120> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent121> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent122> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent123> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent124> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent125> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent126> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent127> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent128> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent129> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent13> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent130> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent131> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent132> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent133> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent134> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent135> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent136> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent137> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent138> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent139> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent14> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent140> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent141> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent142> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent143> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent144> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent145> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent146> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent147> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent148> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent149> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent15> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent150> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent151> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent152> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent153> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent154> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent155> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent156> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent157> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent158> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent159> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent16> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent160> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent161> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent162> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent163> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent164> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent165> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent166> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent167> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent168> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent169> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent17> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent170> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent172> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent173> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent174> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent175> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent176> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent177> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent178> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent179> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent18> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent180> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent181> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent182> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent183> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent184> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent185> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent186> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent187> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent188> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent189> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent19> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent190> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent191> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent192> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent193> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent194> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent195> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent196> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent197> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent198> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent199> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent2> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent20> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent200> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent201> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent202> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent203> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent204> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent205> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent206> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent207> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent208> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent209> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent21> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent210> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent211> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent212> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent213> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent214> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent215> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent216> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent217> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent218> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent219> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent22> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent220> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent221> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent222> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent223> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent224> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent225> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent226> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent227> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent228> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent229> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent23> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent231> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent232> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent233> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent234> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent235> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent236> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent237> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent238> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent239> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent24> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent240> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent241> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent242> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent243> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent244> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent245> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent246> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent247> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent248> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent249> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent25> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent250> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent251> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent252> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent253> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent254> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent255> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent256> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent257> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent258> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent259> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent26> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent260> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent261> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent262> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent263> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent264> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent265> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent266> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent267> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent268> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent269> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent27> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent270> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent271> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent272> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent273> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent274> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent275> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent276> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent277> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent278> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent279> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent28> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent280> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent281> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent282> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent283> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent284> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent285> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent286> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent287> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent288> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent289> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent29> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent290> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent291> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent292> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent293> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent294> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent295> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent296> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent297> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent298> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent299> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent3> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent30> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent300> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent301> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent302> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent303> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent304> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent305> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent306> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent307> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent308> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent309> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent31> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent310> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent311> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent312> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent313> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent314> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent315> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent316> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent317> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent318> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent319> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent32> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent320> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent321> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent322> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent323> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent324> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent325> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent326> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent327> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent328> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent329> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent33> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent330> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent331> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent332> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent333> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent334> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent335> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent336> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent337> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent338> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent339> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent34> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent340> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent341> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent342> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent343> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent344> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent345> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent346> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent347> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent348> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent349> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent35> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent350> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent352> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent353> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent354> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent355> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent356> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent357> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent358> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent359> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent36> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent360> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent361> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent362> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent363> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent364> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent365> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent366> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent367> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent368> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent369> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent37> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent370> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent371> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent372> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent373> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent374> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent375> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent376> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent377> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent378> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent379> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent38> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent380> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent381> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent382> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent383> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent384> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent385> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent386> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent387> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent388> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent389> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent39> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent390> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent391> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent392> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent393> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent394> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent395> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent396> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent397> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent398> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent399> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent4> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent40> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent400> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent401> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent402> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent403> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent404> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent405> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent406> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent407> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent408> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent409> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent41> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent410> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent411> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent412> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent413> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent414> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent415> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent416> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent417> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent418> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent419> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent42> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent420> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent421> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent422> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent423> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent424> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent425> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent426> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent427> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent428> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent429> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent43> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent430> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent431> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent432> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent433> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent434> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent435> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent436> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent437> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent438> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent439> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent44> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent440> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent441> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent442> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent443> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent444> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent445> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent446> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent447> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent448> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent45> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent46> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent47> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent48> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent49> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent5> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent50> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent51> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent52> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent53> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent54> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent55> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent56> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent57> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent58> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent59> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent6> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent60> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent61> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent62> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent63> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent64> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://www.Department0.University0.edu/UndergraduateStudent65> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#UndergraduateStudent> .
+
+<http://semantics.crl.ibm.com/univ-bench-dl.owl#SwimmingLover> owl:sameAs <http://semantics.crl.ibm.com/univ-bench-dl.owl#BasketBallFan> .
+

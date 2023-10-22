@@ -1,0 +1,228 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+<http://www.okkam.org/oaie/restaurant1-Restaurant0> owl:sameAs <http://www.okkam.org/oaie/restaurant2-Category341> .
+
+<http://www.okkam.org/oaie/restaurant1-Restaurant1> owl:sameAs <http://www.okkam.org/oaie/restaurant2-Category217> .
+
+<http://www.okkam.org/oaie/restaurant1-Restaurant10> owl:sameAs <http://www.okkam.org/oaie/restaurant2-Category217> .
+
+<http://www.okkam.org/oaie/restaurant1-Restaurant100> owl:sameAs <http://www.okkam.org/oaie/restaurant2-Category217> .
+
+<http://www.okkam.org/oaie/restaurant1-Restaurant101> owl:sameAs <http://www.okkam.org/oaie/restaurant2-Category217> .
+
+<http://www.okkam.org/oaie/restaurant1-Restaurant102> owl:sameAs <http://www.okkam.org/oaie/restaurant2-Category217> .
+
+<http://www.okkam.org/oaie/restaurant1-Restaurant103> owl:sameAs <http://www.okkam.org/oaie/restaurant2-Category341> .
+
+<http://www.okkam.org/oaie/restaurant1-Restaurant104> owl:sameAs <http://www.okkam.org/oaie/restaurant2-Category217> .
+
+<http://www.okkam.org/oaie/restaurant1-Restaurant105> owl:sameAs <http://www.okkam.org/oaie/restaurant2-Address647> .
+
+<http://www.okkam.org/oaie/restaurant1-Restaurant106> owl:sameAs <http://www.okkam.org/oaie/restaurant2-Category438> .
+
+<http://www.okkam.org/oaie/restaurant1-Restaurant107> owl:sameAs <http://www.okkam.org/oaie/restaurant2-Category341> .
+
+<http://www.okkam.org/oaie/restaurant1-Restaurant108> owl:sameAs <http://www.okkam.org/oaie/restaurant2-Category341> .
+
+<http://www.okkam.org/oaie/restaurant1-Restaurant109> owl:sameAs <http://www.okkam.org/oaie/restaurant2-Category341> .
+
+<http://www.okkam.org/oaie/restaurant1-Restaurant11> owl:sameAs <http://www.okkam.org/oaie/restaurant2-Address138> .
+
+<http://www.okkam.org/oaie/restaurant1-Restaurant110> owl:sameAs <http://www.okkam.org/oaie/restaurant2-Category269> .
+
+<http://www.okkam.org/oaie/restaurant1-Restaurant111> owl:sameAs <http://www.okkam.org/oaie/restaurant2-Category474> .
+
+<http://www.okkam.org/oaie/restaurant1-Restaurant112> owl:sameAs <http://www.okkam.org/oaie/restaurant2-Category362> .
+
+<http://www.okkam.org/oaie/restaurant1-Restaurant12> owl:sameAs <http://www.okkam.org/oaie/restaurant2-Category217> .
+
+<http://www.okkam.org/oaie/restaurant1-Restaurant13> owl:sameAs <http://www.okkam.org/oaie/restaurant2-Category269> .
+
+<http://www.okkam.org/oaie/restaurant1-Restaurant14> owl:sameAs <http://www.okkam.org/oaie/restaurant2-Category341> .
+
+<http://www.okkam.org/oaie/restaurant1-Restaurant15> owl:sameAs <http://www.okkam.org/oaie/restaurant2-Category341> .
+
+<http://www.okkam.org/oaie/restaurant1-Restaurant16> owl:sameAs <http://www.okkam.org/oaie/restaurant2-Category474> .
+
+<http://www.okkam.org/oaie/restaurant1-Restaurant17> owl:sameAs <http://www.okkam.org/oaie/restaurant2-Category341> .
+
+<http://www.okkam.org/oaie/restaurant1-Restaurant18> owl:sameAs <http://www.okkam.org/oaie/restaurant2-Category237> .
+
+<http://www.okkam.org/oaie/restaurant1-Restaurant19> owl:sameAs <http://www.okkam.org/oaie/restaurant2-Category474> .
+
+<http://www.okkam.org/oaie/restaurant1-Restaurant2> owl:sameAs <http://www.okkam.org/oaie/restaurant2-Category341> .
+
+<http://www.okkam.org/oaie/restaurant1-Restaurant20> owl:sameAs <http://www.okkam.org/oaie/restaurant2-Category362> .
+
+<http://www.okkam.org/oaie/restaurant1-Restaurant21> owl:sameAs <http://www.okkam.org/oaie/restaurant2-Category474> .
+
+<http://www.okkam.org/oaie/restaurant1-Restaurant22> owl:sameAs <http://www.okkam.org/oaie/restaurant2-Category341> .
+
+<http://www.okkam.org/oaie/restaurant1-Restaurant23> owl:sameAs <http://www.okkam.org/oaie/restaurant2-Category23> .
+
+<http://www.okkam.org/oaie/restaurant1-Restaurant24> owl:sameAs <http://www.okkam.org/oaie/restaurant2-Category340> .
+
+<http://www.okkam.org/oaie/restaurant1-Restaurant25> owl:sameAs <http://www.okkam.org/oaie/restaurant2-Category269> .
+
+<http://www.okkam.org/oaie/restaurant1-Restaurant26> owl:sameAs <http://www.okkam.org/oaie/restaurant2-Category341> .
+
+<http://www.okkam.org/oaie/restaurant1-Restaurant27> owl:sameAs <http://www.okkam.org/oaie/restaurant2-Category341> .
+
+<http://www.okkam.org/oaie/restaurant1-Restaurant28> owl:sameAs <http://www.okkam.org/oaie/restaurant2-Category474> .
+
+<http://www.okkam.org/oaie/restaurant1-Restaurant29> owl:sameAs <http://www.okkam.org/oaie/restaurant2-Category341> .
+
+<http://www.okkam.org/oaie/restaurant1-Restaurant3> owl:sameAs <http://www.okkam.org/oaie/restaurant2-Category237> .
+
+<http://www.okkam.org/oaie/restaurant1-Restaurant30> owl:sameAs <http://www.okkam.org/oaie/restaurant2-Category341> .
+
+<http://www.okkam.org/oaie/restaurant1-Restaurant31> owl:sameAs <http://www.okkam.org/oaie/restaurant2-Category126> .
+
+<http://www.okkam.org/oaie/restaurant1-Restaurant32> owl:sameAs <http://www.okkam.org/oaie/restaurant2-Category341> .
+
+<http://www.okkam.org/oaie/restaurant1-Restaurant33> owl:sameAs <http://www.okkam.org/oaie/restaurant2-Category474> .
+
+<http://www.okkam.org/oaie/restaurant1-Restaurant34> owl:sameAs <http://www.okkam.org/oaie/restaurant2-Category341> .
+
+<http://www.okkam.org/oaie/restaurant1-Restaurant35> owl:sameAs <http://www.okkam.org/oaie/restaurant2-Category341> .
+
+<http://www.okkam.org/oaie/restaurant1-Restaurant36> owl:sameAs <http://www.okkam.org/oaie/restaurant2-Category341> .
+
+<http://www.okkam.org/oaie/restaurant1-Restaurant37> owl:sameAs <http://www.okkam.org/oaie/restaurant2-Category341> .
+
+<http://www.okkam.org/oaie/restaurant1-Restaurant38> owl:sameAs <http://www.okkam.org/oaie/restaurant2-Category341> .
+
+<http://www.okkam.org/oaie/restaurant1-Restaurant39> owl:sameAs <http://www.okkam.org/oaie/restaurant2-Address138> .
+
+<http://www.okkam.org/oaie/restaurant1-Restaurant4> owl:sameAs <http://www.okkam.org/oaie/restaurant2-Category341> .
+
+<http://www.okkam.org/oaie/restaurant1-Restaurant40> owl:sameAs <http://www.okkam.org/oaie/restaurant2-Category217> .
+
+<http://www.okkam.org/oaie/restaurant1-Restaurant41> owl:sameAs <http://www.okkam.org/oaie/restaurant2-Address614> .
+
+<http://www.okkam.org/oaie/restaurant1-Restaurant42> owl:sameAs <http://www.okkam.org/oaie/restaurant2-Category217> .
+
+<http://www.okkam.org/oaie/restaurant1-Restaurant43> owl:sameAs <http://www.okkam.org/oaie/restaurant2-Category23> .
+
+<http://www.okkam.org/oaie/restaurant1-Restaurant44> owl:sameAs <http://www.okkam.org/oaie/restaurant2-Category529> .
+
+<http://www.okkam.org/oaie/restaurant1-Restaurant45> owl:sameAs <http://www.okkam.org/oaie/restaurant2-Category538> .
+
+<http://www.okkam.org/oaie/restaurant1-Restaurant46> owl:sameAs <http://www.okkam.org/oaie/restaurant2-Category341> .
+
+<http://www.okkam.org/oaie/restaurant1-Restaurant47> owl:sameAs <http://www.okkam.org/oaie/restaurant2-Category341> .
+
+<http://www.okkam.org/oaie/restaurant1-Restaurant48> owl:sameAs <http://www.okkam.org/oaie/restaurant2-Category537> .
+
+<http://www.okkam.org/oaie/restaurant1-Restaurant49> owl:sameAs <http://www.okkam.org/oaie/restaurant2-Address614> .
+
+<http://www.okkam.org/oaie/restaurant1-Restaurant5> owl:sameAs <http://www.okkam.org/oaie/restaurant2-Category529> .
+
+<http://www.okkam.org/oaie/restaurant1-Restaurant50> owl:sameAs <http://www.okkam.org/oaie/restaurant2-Category341> .
+
+<http://www.okkam.org/oaie/restaurant1-Restaurant51> owl:sameAs <http://www.okkam.org/oaie/restaurant2-Category341> .
+
+<http://www.okkam.org/oaie/restaurant1-Restaurant52> owl:sameAs <http://www.okkam.org/oaie/restaurant2-Category341> .
+
+<http://www.okkam.org/oaie/restaurant1-Restaurant53> owl:sameAs <http://www.okkam.org/oaie/restaurant2-Category340> .
+
+<http://www.okkam.org/oaie/restaurant1-Restaurant54> owl:sameAs <http://www.okkam.org/oaie/restaurant2-Category538> .
+
+<http://www.okkam.org/oaie/restaurant1-Restaurant55> owl:sameAs <http://www.okkam.org/oaie/restaurant2-Category128> .
+
+<http://www.okkam.org/oaie/restaurant1-Restaurant56> owl:sameAs <http://www.okkam.org/oaie/restaurant2-Category217> .
+
+<http://www.okkam.org/oaie/restaurant1-Restaurant57> owl:sameAs <http://www.okkam.org/oaie/restaurant2-Category474> .
+
+<http://www.okkam.org/oaie/restaurant1-Restaurant58> owl:sameAs <http://www.okkam.org/oaie/restaurant2-Category341> .
+
+<http://www.okkam.org/oaie/restaurant1-Restaurant59> owl:sameAs <http://www.okkam.org/oaie/restaurant2-Category341> .
+
+<http://www.okkam.org/oaie/restaurant1-Restaurant6> owl:sameAs <http://www.okkam.org/oaie/restaurant2-Category341> .
+
+<http://www.okkam.org/oaie/restaurant1-Restaurant60> owl:sameAs <http://www.okkam.org/oaie/restaurant2-Category341> .
+
+<http://www.okkam.org/oaie/restaurant1-Restaurant61> owl:sameAs <http://www.okkam.org/oaie/restaurant2-Category362> .
+
+<http://www.okkam.org/oaie/restaurant1-Restaurant62> owl:sameAs <http://www.okkam.org/oaie/restaurant2-Category537> .
+
+<http://www.okkam.org/oaie/restaurant1-Restaurant63> owl:sameAs <http://www.okkam.org/oaie/restaurant2-Category217> .
+
+<http://www.okkam.org/oaie/restaurant1-Restaurant64> owl:sameAs <http://www.okkam.org/oaie/restaurant2-Category341> .
+
+<http://www.okkam.org/oaie/restaurant1-Restaurant65> owl:sameAs <http://www.okkam.org/oaie/restaurant2-Category341> .
+
+<http://www.okkam.org/oaie/restaurant1-Restaurant66> owl:sameAs <http://www.okkam.org/oaie/restaurant2-Category474> .
+
+<http://www.okkam.org/oaie/restaurant1-Restaurant67> owl:sameAs <http://www.okkam.org/oaie/restaurant2-Category537> .
+
+<http://www.okkam.org/oaie/restaurant1-Restaurant68> owl:sameAs <http://www.okkam.org/oaie/restaurant2-Category341> .
+
+<http://www.okkam.org/oaie/restaurant1-Restaurant69> owl:sameAs <http://www.okkam.org/oaie/restaurant2-Category474> .
+
+<http://www.okkam.org/oaie/restaurant1-Restaurant7> owl:sameAs <http://www.okkam.org/oaie/restaurant2-Category474> .
+
+<http://www.okkam.org/oaie/restaurant1-Restaurant70> owl:sameAs <http://www.okkam.org/oaie/restaurant2-Category23> .
+
+<http://www.okkam.org/oaie/restaurant1-Restaurant71> owl:sameAs <http://www.okkam.org/oaie/restaurant2-Category474> .
+
+<http://www.okkam.org/oaie/restaurant1-Restaurant72> owl:sameAs <http://www.okkam.org/oaie/restaurant2-Category217> .
+
+<http://www.okkam.org/oaie/restaurant1-Restaurant73> owl:sameAs <http://www.okkam.org/oaie/restaurant2-Category341> .
+
+<http://www.okkam.org/oaie/restaurant1-Restaurant74> owl:sameAs <http://www.okkam.org/oaie/restaurant2-Category362> .
+
+<http://www.okkam.org/oaie/restaurant1-Restaurant75> owl:sameAs <http://www.okkam.org/oaie/restaurant2-Address614> .
+
+<http://www.okkam.org/oaie/restaurant1-Restaurant76> owl:sameAs <http://www.okkam.org/oaie/restaurant2-Category341> .
+
+<http://www.okkam.org/oaie/restaurant1-Restaurant77> owl:sameAs <http://www.okkam.org/oaie/restaurant2-Category341> .
+
+<http://www.okkam.org/oaie/restaurant1-Restaurant78> owl:sameAs <http://www.okkam.org/oaie/restaurant2-Category438> .
+
+<http://www.okkam.org/oaie/restaurant1-Restaurant79> owl:sameAs <http://www.okkam.org/oaie/restaurant2-Address733> .
+
+<http://www.okkam.org/oaie/restaurant1-Restaurant8> owl:sameAs <http://www.okkam.org/oaie/restaurant2-Category341> .
+
+<http://www.okkam.org/oaie/restaurant1-Restaurant80> owl:sameAs <http://www.okkam.org/oaie/restaurant2-Category341> .
+
+<http://www.okkam.org/oaie/restaurant1-Restaurant81> owl:sameAs <http://www.okkam.org/oaie/restaurant2-Category341> .
+
+<http://www.okkam.org/oaie/restaurant1-Restaurant82> owl:sameAs <http://www.okkam.org/oaie/restaurant2-Category474> .
+
+<http://www.okkam.org/oaie/restaurant1-Restaurant83> owl:sameAs <http://www.okkam.org/oaie/restaurant2-Category341> .
+
+<http://www.okkam.org/oaie/restaurant1-Restaurant84> owl:sameAs <http://www.okkam.org/oaie/restaurant2-Category341> .
+
+<http://www.okkam.org/oaie/restaurant1-Restaurant85> owl:sameAs <http://www.okkam.org/oaie/restaurant2-Category474> .
+
+<http://www.okkam.org/oaie/restaurant1-Restaurant86> owl:sameAs <http://www.okkam.org/oaie/restaurant2-Category269> .
+
+<http://www.okkam.org/oaie/restaurant1-Restaurant87> owl:sameAs <http://www.okkam.org/oaie/restaurant2-Category688> .
+
+<http://www.okkam.org/oaie/restaurant1-Restaurant88> owl:sameAs <http://www.okkam.org/oaie/restaurant2-Category462> .
+
+<http://www.okkam.org/oaie/restaurant1-Restaurant89> owl:sameAs <http://www.okkam.org/oaie/restaurant2-Category341> .
+
+<http://www.okkam.org/oaie/restaurant1-Restaurant9> owl:sameAs <http://www.okkam.org/oaie/restaurant2-Category529> .
+
+<http://www.okkam.org/oaie/restaurant1-Restaurant90> owl:sameAs <http://www.okkam.org/oaie/restaurant2-Category341> .
+
+<http://www.okkam.org/oaie/restaurant1-Restaurant91> owl:sameAs <http://www.okkam.org/oaie/restaurant2-Category341> .
+
+<http://www.okkam.org/oaie/restaurant1-Restaurant92> owl:sameAs <http://www.okkam.org/oaie/restaurant2-Category656> .
+
+<http://www.okkam.org/oaie/restaurant1-Restaurant93> owl:sameAs <http://www.okkam.org/oaie/restaurant2-Category474> .
+
+<http://www.okkam.org/oaie/restaurant1-Restaurant94> owl:sameAs <http://www.okkam.org/oaie/restaurant2-Category237> .
+
+<http://www.okkam.org/oaie/restaurant1-Restaurant95> owl:sameAs <http://www.okkam.org/oaie/restaurant2-Category341> .
+
+<http://www.okkam.org/oaie/restaurant1-Restaurant96> owl:sameAs <http://www.okkam.org/oaie/restaurant2-Category341> .
+
+<http://www.okkam.org/oaie/restaurant1-Restaurant97> owl:sameAs <http://www.okkam.org/oaie/restaurant2-Category217> .
+
+<http://www.okkam.org/oaie/restaurant1-Restaurant98> owl:sameAs <http://www.okkam.org/oaie/restaurant2-Category486> .
+
+<http://www.okkam.org/oaie/restaurant1-Restaurant99> owl:sameAs <http://www.okkam.org/oaie/restaurant2-Category237> .
+
