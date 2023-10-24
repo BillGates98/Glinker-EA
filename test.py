@@ -88,7 +88,7 @@ def calculate_alignment_metrics(output_file, truth_file, suffix, threshold, coun
                                                   recall) if (precision + recall) > 0 else 0.0, 2)
 
     append_rows_to_csv([(suffix, precision, recall, f_measure, threshold,
-                       countpairs, selectedcount, round(runningtime, 2))], measure_file)
+                         countpairs, selectedcount, round(runningtime, 2))], measure_file)
     return {
         "precision": precision,
         "recall": recall,
@@ -114,7 +114,6 @@ def cosine_sim(v1=[], v2=[]):
 
 def sim(entity1=[], entity2=[], cosim=0.0, threshold=0.0):
     jaros = []
-    total = 0
     for p1, o1 in entity1:
         if not validators.url(o1):
             tmp = []
@@ -129,12 +128,12 @@ def sim(entity1=[], entity2=[], cosim=0.0, threshold=0.0):
     leno = len(jaros)
     if leno > 1:
         _mean = round((np.mean(np.array(jaros))), 2)  # / cosim
-        if _mean >= 0.5 and cosim > 0:
+        if _mean >= 0.5:
             decision = round((_mean * leno)/cosim, 2)
             decision = round(1-sigmoid(decision), 2)
             if decision >= threshold:  # 0.22
-                print('Decision taked for value : ', decision, ' old value : ',
-                      cosim, ' _mean : ', _mean, ' size : ', len(jaros))
+                # print('Decision taked for value : ', decision, ' old value : ',
+                #       cosim, ' _mean : ', _mean, ' size : ', len(jaros))
                 return True
     return False
 
@@ -213,7 +212,8 @@ def process_rdf_files(file1, file2, output_file, truth_file, suffix, threshold):
         file=file1, dimension=dimension, algo=algo).run()
     target_embeddings = Embedding(
         file=file2, dimension=dimension, algo=algo).run()
-    # valid_alignements = Embedding(file=truth_file, dimension=dimension).build_triples(with_predicate=False)
+    # valid_alignements = Embedding(
+    #     file=truth_file, dimension=dimension).build_triples(with_predicate=False)
 
     graph3 = Graph()
     graph3.parse(truth_file)
@@ -226,8 +226,8 @@ def process_rdf_files(file1, file2, output_file, truth_file, suffix, threshold):
     print('Building ended')
 
     # print('Candidates reducing ')
-    print(len(list(subjects1.keys())))
-    print(len(list(subjects2.keys())))
+    print('Instances of source : ', len(list(subjects1.keys())))
+    print('Instances of target : ', len(list(subjects2.keys())))
     # subjects1 = random_selections(subjects1, k=1.0)
     # subjects2 = random_selections(subjects2, k=1.0)
     # print( len(list(subjects1.keys())) )
@@ -241,7 +241,7 @@ def process_rdf_files(file1, file2, output_file, truth_file, suffix, threshold):
     #         output_alignements[str(s)] = str(t)
     pairs = list(itertools.product(
         list(subjects1.keys()), list(subjects2.keys())))
-    print(f'{len(pairs)} pairs ')
+    print(f'{len(pairs)} candidates pairs ')
     count = 0
     with multiprocessing.Pool(processes=10) as pool:
         results = pool.starmap(parallel_running,

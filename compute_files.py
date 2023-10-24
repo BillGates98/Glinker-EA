@@ -2,26 +2,27 @@ import os
 from datetime import datetime
 from rdflib import Graph
 
-class ComputeFile: 
+
+class ComputeFile:
 
     def __init__(self, input_path='', output_path=''):
         self.input_path = input_path
         self.output_path = output_path
         self.input_files = []
         self.output_files = []
-        self.extensions = ['.ttl', '.nt', '.rdf', '.owl']
-    
+        self.extensions = ['.ttl', '.nt', '.rdf', '.owl', '.csv']
+
     def build_graph(self, input_file=''):
         graph = Graph()
         graph.parse(input_file, format=get_format(value=input_file))
         return graph
-    
-    def accept_extension(self, file='') :
-        for ext in self.extensions :
-            if file.endswith(ext) :
+
+    def accept_extension(self, file=''):
+        for ext in self.extensions:
+            if file.endswith(ext):
                 return True
         return False
-    
+
     def build_list_files(self):
         """
             building the list of input and output files
