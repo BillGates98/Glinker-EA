@@ -83,6 +83,7 @@ def cosine_sim(v1=[], v2=[]):
     dot = np.dot(v1, v2)
     cosine = dot / (np.linalg.norm(v1) * np.linalg.norm(v2))
     output = cosine
+    # (IIMB, Person, 0.6), (Restaurant, 0.5), (doremus, 0.7), (SPIM-s, 0.7|0.8|0.9), (SPIM-l, 0.9|0.8)
     if output >= 0.5:
         return True, output
     return False, output
@@ -204,7 +205,6 @@ def process_rdf_files(file1, file2, output_file, truth_file, suffix, threshold):
     # print('Candidates reducing ')
     print('Instances of source : ', len(list(subjects1.keys())))
     print('Instances of target : ', len(list(subjects2.keys())))
-    # exit()
     # subjects1 = random_selections(subjects1, k=1.0)
     # subjects2 = random_selections(subjects2, k=0.01)
     # print('Instances of source : ', len(list(subjects1.keys())))
@@ -222,15 +222,18 @@ def process_rdf_files(file1, file2, output_file, truth_file, suffix, threshold):
     print('In all : ', len(pairs))
     _pairs = []
     # for sub1 in tqdm(subjects1):
-    #     _subjects2 = random_selections(subjects2, k=1.0)
+    #     _subjects2 = subjects2  # random_selections(subjects2, k=0.2)
     #     for sub2 in _subjects2:
     #         inter = set(subjects1[sub1]) & set(subjects2[sub2])
+    #         # (IIMB, person, restaurant, 0), (doremus, 1), (Spim-s, Spim-l, 1),
+    #         # v, _ = cosine_sim(
+    #         # v1=source_embeddings.wv[sub1], v2=target_embeddings.wv[sub2])
     #         if len(inter) >= 0:
     #             _pairs.append((sub1, sub2))
-    # print('they are to compute : ', len(_pairs))
+    print('they are to compute : ', len(_pairs))
     # exit()
     count = 0
-    with multiprocessing.Pool(processes=40) as pool:
+    with multiprocessing.Pool(processes=13) as pool:
         results = pool.starmap(parallel_running,
                                [(sub1, sub2, source_embeddings.wv[sub1], target_embeddings.wv[sub2], subjects1, subjects2, threshold)
                                 for sub1, sub2 in tqdm(_pairs) if sub1 in source_embeddings.wv and sub2 in target_embeddings.wv])

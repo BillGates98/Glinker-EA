@@ -27,7 +27,6 @@ ds = DeepSimilarity(code='*')
 output_alignements = {}
 
 already_treated = {}
-#  and not sub1 in output_alignements
 
 
 def append_rows_to_csv(new_rows, measure_file):
@@ -35,15 +34,15 @@ def append_rows_to_csv(new_rows, measure_file):
         df = pd.read_csv(measure_file)
     except FileNotFoundError:
         df = pd.DataFrame(
-            columns=['Dataset', 'Precision', 'Recall', 'F1-score', 'Threshold', 'CandidatesPairs', 'SelectedCandidates', 'RunningTime'])
+            columns=['Dataset', 'Model_name', 'Precision', 'Recall', 'F1-score', 'Threshold', 'CandidatesPairs', 'SelectedCandidates', 'RunningTime'])
 
     new_data = pd.DataFrame(
-        new_rows, columns=['Dataset', 'Precision', 'Recall', 'F1-score', 'Threshold', 'CandidatesPairs', 'SelectedCandidates', 'RunningTime'])
+        new_rows, columns=['Dataset', 'Model_name', 'Precision', 'Recall', 'F1-score', 'Threshold', 'CandidatesPairs', 'SelectedCandidates', 'RunningTime'])
     df = pd.concat([df, new_data], ignore_index=True)
     df.to_csv(measure_file, index=False)
 
 
-def calculate_alignment_metrics(output_file, truth_file, suffix, threshold, countpairs, selectedcount, runningtime):
+def calculate_alignment_metrics(output_file, truth_file, suffix, threshold, countpairs, selectedcount, model_name, runningtime):
     measure_file = output_file.replace(
         'tmp_valid_same_as.ttl', 'measure_file.csv')
     output_graph = Graph()
@@ -63,7 +62,7 @@ def calculate_alignment_metrics(output_file, truth_file, suffix, threshold, coun
     f_measure = round(2 * (precision * recall) / (precision +
                                                   recall) if (precision + recall) > 0 else 0.0, 2)
 
-    append_rows_to_csv([(suffix, precision, recall, f_measure, threshold,
+    append_rows_to_csv([(suffix, model_name, precision, recall, f_measure, threshold,
                          countpairs, selectedcount, round(runningtime, 2))], measure_file)
     return {
         "precision": precision,
@@ -83,7 +82,7 @@ def cosine_sim(v1=[], v2=[]):
     dot = np.dot(v1, v2)
     cosine = dot / (np.linalg.norm(v1) * np.linalg.norm(v2))
     output = cosine
-    if output >= 0.5:
+    if output >= 0.7:
         return True, output
     return False, output
 
@@ -103,13 +102,11 @@ def sim(entity1=[], entity2=[], cosim=0.0, threshold=0.0):
                 jaros.append(max(tmp))
     leno = len(jaros)
     if leno > 1:
-        _mean = round((np.mean(np.array(jaros))), 2)  # / cosim
+        _mean = round((np.mean(np.array(jaros))), 2)
         if _mean >= 0.5:
             decision = round((_mean * leno)/cosim, 2)
             decision = round(1-sigmoid(decision), 2)
-            if decision >= threshold:  # 0.22
-                # print('Decision taked for value : ', decision, ' old value : ',
-                #       cosim, ' _mean : ', _mean, ' size : ', len(jaros))
+            if decision >= threshold:
                 return True
     return False
 
@@ -155,26 +152,19 @@ def random_selections(data={}, k=0):
         output[e] = data[e]
     return output
 
-
 # End of embedding functions
 #
 
-def parallel_running(sub1, sub2, vector1, vector2, subs1, subs2, threshold):
 
+def parallel_running(sub1, sub2, vector1, vector2, subs1, subs2, threshold):
     v, cos = cosine_sim(v1=vector1, v2=vector2)
     if v:
         if sim(entity1=subs1[sub1], entity2=subs2[sub2], cosim=cos, threshold=threshold):
-            # already_treated[sub1] = sub2
             return sub1, sub2, 1
     return None, None, 0
 
 
-dimension = 20
-# algo = 'w2v'
-algo = 'r2v'
-
-
-def process_rdf_files(file1, file2, output_file, truth_file, suffix, threshold):
+def process_rdf_files(file1, file2, output_file, truth_file, suffix, threshold, model_name, dimension):
 
     graph1 = Graph()
     graph1.parse(file1)
@@ -185,9 +175,9 @@ def process_rdf_files(file1, file2, output_file, truth_file, suffix, threshold):
     print('Target file loaded ..100%')
 
     source_embeddings = Embedding(
-        file=file1, dimension=dimension, algo=algo).run()
+        file=file1, dimension=dimension, model_name=model_name).run()
     target_embeddings = Embedding(
-        file=file2, dimension=dimension, algo=algo).run()
+        file=file2, dimension=dimension, model_name=model_name).run()
     valid_alignements = Embedding(
         file=truth_file, dimension=dimension).build_triples(with_predicate=False)
 
@@ -204,36 +194,22 @@ def process_rdf_files(file1, file2, output_file, truth_file, suffix, threshold):
     # print('Candidates reducing ')
     print('Instances of source : ', len(list(subjects1.keys())))
     print('Instances of target : ', len(list(subjects2.keys())))
-    # exit()
-    # subjects1 = random_selections(subjects1, k=1.0)
-    # subjects2 = random_selections(subjects2, k=0.01)
-    # print('Instances of source : ', len(list(subjects1.keys())))
-    # print('Instances of target : ', len(list(subjects2.keys())))
+    pairs = []
 
-    # exit
-    # for s, _, t in graph3:
-    #     _, val = cosine_sim(v1=source_embeddings.wv[str(
-    #         s)], v2=target_embeddings.wv[str(t)])
-    #     if sim(entity1=subjects1[str(s)], entity2=subjects2[str(t)], cosim=val):
-    #         output_alignements[str(s)] = str(t)
-    pairs = list(itertools.product(
-        list(subjects1.keys()), list(subjects2.keys())))
-    # print(f'{len(pairs)} total candidates pairs ')
-    print('In all : ', len(pairs))
     _pairs = []
-    # for sub1 in tqdm(subjects1):
-    #     _subjects2 = random_selections(subjects2, k=1.0)
-    #     for sub2 in _subjects2:
-    #         inter = set(subjects1[sub1]) & set(subjects2[sub2])
-    #         if len(inter) >= 0:
-    #             _pairs.append((sub1, sub2))
-    # print('they are to compute : ', len(_pairs))
+    for sub1 in tqdm(subjects1):
+        _subjects2 = subjects2  # random_selections(subjects2, k=1.0)
+        for sub2 in _subjects2:
+            inter = set(subjects1[sub1]) & set(subjects2[sub2])
+            if len(inter) >= 1:
+                _pairs.append((sub1, sub2))
+    print('they are to compute : ', len(_pairs))
     # exit()
     count = 0
-    with multiprocessing.Pool(processes=40) as pool:
+    with multiprocessing.Pool(processes=13) as pool:
         results = pool.starmap(parallel_running,
-                               [(sub1, sub2, source_embeddings.wv[sub1], target_embeddings.wv[sub2], subjects1, subjects2, threshold)
-                                for sub1, sub2 in tqdm(_pairs) if sub1 in source_embeddings.wv and sub2 in target_embeddings.wv])
+                               [(sub1, sub2, source_embeddings[sub1], target_embeddings[sub2], subjects1, subjects2, threshold)
+                                for sub1, sub2 in tqdm(_pairs) if sub1 in source_embeddings and sub2 in target_embeddings])
         for sub1, sub2, status in results:
             if sub1 != None and sub2 != None:
                 output_alignements[sub1] = sub2
@@ -244,7 +220,7 @@ def process_rdf_files(file1, file2, output_file, truth_file, suffix, threshold):
     end_time = time.time()
     execution_time = end_time - start_time
     metrics = calculate_alignment_metrics(
-        output_file, truth_file, suffix, threshold, len(pairs), len(_pairs), execution_time)
+        output_file, truth_file, suffix, threshold, len(pairs), count, model_name, execution_time)
     print("Precision : ", metrics["precision"])
     print("Recall : ", metrics["recall"])
     print("F-measure : ", metrics["f_measure"])
@@ -264,7 +240,9 @@ if __name__ == "__main__":
         parser.add_argument("--input_path", type=str, default="./inputs/")
         parser.add_argument("--output_path", type=str, default="./outputs/")
         parser.add_argument("--suffix", type=str, default="spaten_hobbit")
-        parser.add_argument("--threshold", type=float, default=0.0)
+        parser.add_argument("--threshold", type=float, default="0.0")
+        parser.add_argument("--model_name", type=str, default="TransE")
+        parser.add_argument("--dimension", type=int, default=20)
         return parser.parse_args()
     args = arg_manager()
     file1 = detect_file(path=args.input_path+args.suffix, type='source')
@@ -273,9 +251,9 @@ if __name__ == "__main__":
                              args.suffix, type='valid_same_as')
     output_path = args.output_path + args.suffix
     output_file = output_path + '/tmp_valid_same_as.ttl'
-    print(args.output_path)
     if not os.path.exists(output_path):
         os.makedirs(output_path)
-    print(file1, file2, output_file, truth_file)
+    print(file1, file2, output_file, truth_file,
+          args.model_name, args.dimension)
     process_rdf_files(file1, file2, output_file, truth_file,
-                      args.suffix, args.threshold)
+                      args.suffix, args.threshold, args.model_name, args.dimension)

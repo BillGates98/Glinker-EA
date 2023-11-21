@@ -15,9 +15,9 @@ class Main:
     def __init__(self, input_path='', output_path=''):
         self.input_path = input_path
         self.output_path = output_path
-        self.total = 77  # 61
-        self.divider = 1e3  # 1e6
-        self.labelo = 'K'  # M
+        self.total = 80  # 61
+        self.divider = 1e6  # 1e6
+        self.labelo = 'M'  # M
         self.datasets = ['0'*(3-len(str(i))) + str(i) for i in range(1, 81)]
         self.start_time = time.time()
 
@@ -28,13 +28,13 @@ class Main:
 
     def plot_data(self, data=[], datasets=[], metric=''):
         plt.figure(figsize=(4.3, 2))
-        dimensions = ['Glinker', 'Codi']
+        dimensions = ['Glinker']
         values = np.array(data)
         n = len(values)
         w = .3
         x = np.arange(0, len(datasets))
         # '#00b386']  # , '#ffc107', '#aa80ff']
-        colors = ['#4472c4', '#ed7d31']  # '#ffc107']
+        colors = ['#4472c4']  # '#ffc107']
         for i, value in enumerate(values):
             position = x + (w*(1-n)/2) + i*w
             plt.bar(position, value, width=w,
@@ -116,32 +116,38 @@ class Main:
         datasets = []
         outputs = {
             'p0': [],
-            'p1': [],
             'r0': [],
-            'r1': [],
             'f0': [],
-            'f1': []
         }
         for i in range(int(len(data[0])/10) + 1):
             datasets.append(i+1)
             _p = data[0][i*10:(i+1)*10]
             _r = data[1][i*10:(i+1)*10]
             _f = data[2][i*10:(i+1)*10]
-            outputs['p0'].append(round(np.mean(_p), 2))
-            outputs['r0'].append(round(np.mean(_r), 2))
-            outputs['f0'].append(round(np.mean(_f), 2))
+            if len(_p) == 0:
+                outputs['p0'].append(0.0)
+                outputs['r0'].append(0.0)
+                outputs['f0'].append(0.0)
+            else:
+                outputs['p0'].append(round(np.mean(_p), 2))
+                outputs['r0'].append(round(np.mean(_r), 2))
+                outputs['f0'].append(round(np.mean(_f), 2))
         filename = self.output_path + 'to_glinker.csv'
-        codifile = self.output_path + 'to_codi.csv'
-        df = self.read_csv(file=codifile)
-        for i in range(len(df)):
-            outputs['p1'].append(df.loc[i]['p'])
-            outputs['r1'].append(df.loc[i]['r'])
-            outputs['f1'].append(df.loc[i]['f'])
-        self.plot_data(data=[outputs['p0'], outputs['p1']],
+        # codifile = self.output_path + 'to_codi.csv'
+        # df = self.read_csv(file=codifile)
+        # for i in range(len(df)):
+        #     outputs['p1'].append(df.loc[i]['p'])
+        #     outputs['r1'].append(df.loc[i]['r'])
+        #     outputs['f1'].append(df.loc[i]['f'])
+        print(np.mean([i for i in outputs['p0'] if i > 0.0]))
+        print(np.mean([i for i in outputs['r0'] if i > 0.0]))
+        print(np.mean([i for i in outputs['f0'] if i > 0.0]))
+        # exit()
+        self.plot_data(data=[outputs['p0']],
                        datasets=datasets, metric='Precision')
-        self.plot_data(data=[outputs['r0'], outputs['r1']],
+        self.plot_data(data=[outputs['r0']],
                        datasets=datasets, metric='Recall')
-        self.plot_data(data=[outputs['f0'], outputs['f1']],
+        self.plot_data(data=[outputs['f0']],
                        datasets=datasets, metric='F-measure')
 
         self.save_to_csv(data=outputs, filename=filename)
