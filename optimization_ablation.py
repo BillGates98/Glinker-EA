@@ -15,11 +15,13 @@ from mpl_toolkits.mplot3d import Axes3D
 from scipy.interpolate import griddata
 
 
-class Optimization:
-    def __init__(self, truth_file='', output_file='', suffix=''):
+class OptimizationAblation:
+    def __init__(self, truth_file='', output_file='', suffix='', embedding_name='', similarity_measure=''):
         self.truth_file = truth_file
         self.alignment_file = output_file
         self.suffix = suffix
+        self.embedding_name = embedding_name
+        self.similarity_measure = similarity_measure
         self.step = 0.01
 
     def load_graph(self, file=''):
@@ -71,6 +73,18 @@ class Optimization:
             output.append(tmp)
         return output
 
+    def append_rows_to_csv(self, new_rows, measure_file):
+        try:
+            df = pd.read_csv(measure_file)
+        except FileNotFoundError:
+            df = pd.DataFrame(
+                columns=['Dataset', 'EmbeddingName', 'SimilarityMeasure', 'Precision', 'Recall', 'F1-score', 'Alpha', 'Beta'])
+
+        new_data = pd.DataFrame(
+            new_rows, columns=['Dataset', 'EmbeddingName', 'SimilarityMeasure', 'Precision', 'Recall', 'F1-score', 'Alpha', 'Beta'])
+        df = pd.concat([df, new_data], ignore_index=True)
+        df.to_csv(measure_file, index=False)
+
     def orchestrator(self):
         output = {
             "recall": [],
@@ -115,12 +129,16 @@ class Optimization:
         f1score_max_index = np.argmax(f1scores)
         tmp = {
             'recall': output['recall'][f1score_max_index],
-            'alpha': alphas[f1score_max_index],
-            'beta': betas[f1score_max_index],
+            'alpha': round(output['alpha'][f1score_max_index], 2),
+            'beta': round(output['beta'][f1score_max_index], 2),
             'precision': output['precision'][f1score_max_index],
             'f1-score': output['f1score'][f1score_max_index]
         }
         print(tmp)
+        metrics_file = './outputs/optimal_metrics_with_ablation.csv'
+        new_data = [self.suffix, self.embedding_name, self.similarity_measure,
+                    tmp['precision'], tmp['recall'], tmp['f1-score'], tmp['alpha'], tmp['beta']]
+        self.append_rows_to_csv([new_data], metrics_file)
         return output
 
     def run(self):
@@ -154,6 +172,6 @@ if __name__ == "__main__":
         path='./outputs/'+args.suffix, type=args.embedding_name + '_' + args.similarity_measure + '_valid_same_as')
     print('Dataset : ', args.suffix)
     print('Files : ', truth_file, ' >> ', output_file)
-    Optimization(truth_file=truth_file, output_file=output_file,
-                 suffix=args.suffix).run()
+    OptimizationAblation(truth_file=truth_file, output_file=output_file,
+                         suffix=args.suffix, embedding_name=args.embedding_name, similarity_measure=args.similarity_measure).run()
     print('Running Time : ', (time.time() - start), ' seconds ')

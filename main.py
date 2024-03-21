@@ -48,12 +48,6 @@ class Linking:
             output[s].append((p, o))
         return output
 
-    def extract_true_alignments(self, graph=None):
-        output = []
-        for s, _, o in graph:
-            output.append((s, o))
-        return output
-
     def string_chain(self, entity=[]):
         output = []
         for _, o in entity:
@@ -78,55 +72,12 @@ class Linking:
             return np.mean(sims)
         return 0.0
 
-    def append_rows_to_csv(self, new_rows, measure_file):
-        try:
-            df = pd.read_csv(measure_file)
-        except FileNotFoundError:
-            df = pd.DataFrame(
-                columns=['Dataset', 'Precision', 'Recall', 'F1-score', 'EmbeddingName' 'alpha', 'beta', 'CandidatesPairs', 'SelectedCandidates', 'RunningTime'])
-
-        new_data = pd.DataFrame(
-            new_rows, columns=['Dataset', 'Precision', 'Recall', 'F1-score', 'EmbeddingName', 'alpha', 'beta', 'CandidatesPairs', 'SelectedCandidates', 'RunningTime'])
-        df = pd.concat([df, new_data], ignore_index=True)
-        df.to_csv(measure_file, index=False)
-
-    def calculate_alignment_metrics(self, output_file, truth_file, suffix, threshold, count_pairs, selected_count, running_time):
-        measure_file = output_file.replace(
-            'tmp_valid_same_as.ttl', 'measure_file.csv')
-        output_graph = Graph()
-        output_graph.parse(output_file, format="turtle")
-
-        truth_graph = Graph()
-        truth_graph.parse(truth_file, format="turtle")
-
-        found_alignments = set(output_graph.subjects())
-        true_alignments = set(truth_graph.subjects())
-        print('Count of true alignments : ', len(true_alignments))
-        intersection = len(found_alignments.intersection(true_alignments))
-        precision = round(intersection /
-                          len(found_alignments) if len(found_alignments) > 0 else 0.0, 2)
-        recall = round(intersection /
-                       len(true_alignments) if len(true_alignments) > 0 else 0.0, 2)
-        f_measure = round(2 * (precision * recall) / (precision +
-                                                      recall) if (precision + recall) > 0 else 0.0, 2)
-
-        self.append_rows_to_csv([(suffix, precision, recall, f_measure, threshold,
-                                  count_pairs, selected_count, round(running_time, 2))], measure_file)
-        return {
-            "precision": precision,
-            "recall": recall,
-            "f_measure": f_measure
-        }
-
-    def sigmoid(self, value):
-        return 1 / (1 + np.exp(value))
-
     def cosine_sim(self, v1=[], v2=[]):
         dot = np.dot(v1, v2)
         cosine = dot / (np.linalg.norm(v1) * np.linalg.norm(v2))
         return cosine
 
-    def sim(self, entity1=[], entity2=[], cosine_sim=0.0):
+    def sim(self, entity1=[], entity2=[]):
         output = []
         for p1, o1 in entity1:
             if not validators.url(o1):
@@ -160,8 +111,7 @@ class Linking:
         return None
 
     def parallel_running(self, source, s_entity, target, t_entity, cosine_sim):
-        status = self.sim(entity1=s_entity, entity2=t_entity,
-                          cosine_sim=cosine_sim)
+        status = self.sim(entity1=s_entity, entity2=t_entity)
         return source, target, cosine_sim, status
 
     def process_candidates(self, candidates=[]):
