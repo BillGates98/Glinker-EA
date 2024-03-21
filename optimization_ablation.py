@@ -115,6 +115,8 @@ class Optimization:
         f1score_max_index = np.argmax(f1scores)
         tmp = {
             'recall': output['recall'][f1score_max_index],
+            'alpha': alphas[f1score_max_index],
+            'beta': betas[f1score_max_index],
             'precision': output['precision'][f1score_max_index],
             'f1-score': output['f1score'][f1score_max_index]
         }
