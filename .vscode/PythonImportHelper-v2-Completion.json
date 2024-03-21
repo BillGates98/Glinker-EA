@@ -121,6 +121,38 @@
         "documentation": {}
     },
     {
+        "label": "Graph",
+        "importPath": "rdflib",
+        "description": "rdflib",
+        "isExtraImport": true,
+        "detail": "rdflib",
+        "documentation": {}
+    },
+    {
+        "label": "Graph",
+        "importPath": "rdflib",
+        "description": "rdflib",
+        "isExtraImport": true,
+        "detail": "rdflib",
+        "documentation": {}
+    },
+    {
+        "label": "Graph",
+        "importPath": "rdflib",
+        "description": "rdflib",
+        "isExtraImport": true,
+        "detail": "rdflib",
+        "documentation": {}
+    },
+    {
+        "label": "StringSimilarity",
+        "importPath": "string_similarity",
+        "description": "string_similarity",
+        "isExtraImport": true,
+        "detail": "string_similarity",
+        "documentation": {}
+    },
+    {
         "label": "Word2Vec",
         "importPath": "gensim.models",
         "description": "gensim.models",
@@ -170,11 +202,60 @@
         "documentation": {}
     },
     {
-        "label": "Node2Vec",
-        "importPath": "node2vec",
-        "description": "node2vec",
+        "label": "TriplesFactory",
+        "importPath": "pykeen.triples",
+        "description": "pykeen.triples",
         "isExtraImport": true,
-        "detail": "node2vec",
+        "detail": "pykeen.triples",
+        "documentation": {}
+    },
+    {
+        "label": "pipeline",
+        "importPath": "pykeen.pipeline",
+        "description": "pykeen.pipeline",
+        "isExtraImport": true,
+        "detail": "pykeen.pipeline",
+        "documentation": {}
+    },
+    {
+        "label": "pandas",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pandas",
+        "description": "pandas",
+        "detail": "pandas",
+        "documentation": {}
+    },
+    {
+        "label": "PCA",
+        "importPath": "sklearn.decomposition",
+        "description": "sklearn.decomposition",
+        "isExtraImport": true,
+        "detail": "sklearn.decomposition",
+        "documentation": {}
+    },
+    {
+        "label": "ComputeFile",
+        "importPath": "compute_files",
+        "description": "compute_files",
+        "isExtraImport": true,
+        "detail": "compute_files",
+        "documentation": {}
+    },
+    {
+        "label": "ComputeFile",
+        "importPath": "compute_files",
+        "description": "compute_files",
+        "isExtraImport": true,
+        "detail": "compute_files",
+        "documentation": {}
+    },
+    {
+        "label": "ComputeFile",
+        "importPath": "compute_files",
+        "description": "compute_files",
+        "isExtraImport": true,
+        "detail": "compute_files",
         "documentation": {}
     },
     {
@@ -264,15 +345,6 @@
         "documentation": {}
     },
     {
-        "label": "pandas",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "pandas",
-        "description": "pandas",
-        "detail": "pandas",
-        "documentation": {}
-    },
-    {
         "label": "train_test_split",
         "importPath": "sklearn.model_selection",
         "description": "sklearn.model_selection",
@@ -314,6 +386,30 @@
         "documentation": {}
     },
     {
+        "label": "tqdm",
+        "importPath": "tqdm",
+        "description": "tqdm",
+        "isExtraImport": true,
+        "detail": "tqdm",
+        "documentation": {}
+    },
+    {
+        "label": "tqdm",
+        "importPath": "tqdm",
+        "description": "tqdm",
+        "isExtraImport": true,
+        "detail": "tqdm",
+        "documentation": {}
+    },
+    {
+        "label": "tqdm",
+        "importPath": "tqdm",
+        "description": "tqdm",
+        "isExtraImport": true,
+        "detail": "tqdm",
+        "documentation": {}
+    },
+    {
         "label": "multiprocessing",
         "kind": 6,
         "isExtraImport": true,
@@ -323,11 +419,149 @@
         "documentation": {}
     },
     {
+        "label": "matplotlib.pyplot",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "matplotlib.pyplot",
+        "description": "matplotlib.pyplot",
+        "detail": "matplotlib.pyplot",
+        "documentation": {}
+    },
+    {
+        "label": "cm",
+        "importPath": "matplotlib",
+        "description": "matplotlib",
+        "isExtraImport": true,
+        "detail": "matplotlib",
+        "documentation": {}
+    },
+    {
+        "label": "cm",
+        "importPath": "matplotlib",
+        "description": "matplotlib",
+        "isExtraImport": true,
+        "detail": "matplotlib",
+        "documentation": {}
+    },
+    {
+        "label": "cm",
+        "importPath": "matplotlib",
+        "description": "matplotlib",
+        "isExtraImport": true,
+        "detail": "matplotlib",
+        "documentation": {}
+    },
+    {
+        "label": "LinearLocator",
+        "importPath": "matplotlib.ticker",
+        "description": "matplotlib.ticker",
+        "isExtraImport": true,
+        "detail": "matplotlib.ticker",
+        "documentation": {}
+    },
+    {
+        "label": "FormatStrFormatter",
+        "importPath": "matplotlib.ticker",
+        "description": "matplotlib.ticker",
+        "isExtraImport": true,
+        "detail": "matplotlib.ticker",
+        "documentation": {}
+    },
+    {
+        "label": "LinearLocator",
+        "importPath": "matplotlib.ticker",
+        "description": "matplotlib.ticker",
+        "isExtraImport": true,
+        "detail": "matplotlib.ticker",
+        "documentation": {}
+    },
+    {
+        "label": "FormatStrFormatter",
+        "importPath": "matplotlib.ticker",
+        "description": "matplotlib.ticker",
+        "isExtraImport": true,
+        "detail": "matplotlib.ticker",
+        "documentation": {}
+    },
+    {
+        "label": "LinearLocator",
+        "importPath": "matplotlib.ticker",
+        "description": "matplotlib.ticker",
+        "isExtraImport": true,
+        "detail": "matplotlib.ticker",
+        "documentation": {}
+    },
+    {
+        "label": "FormatStrFormatter",
+        "importPath": "matplotlib.ticker",
+        "description": "matplotlib.ticker",
+        "isExtraImport": true,
+        "detail": "matplotlib.ticker",
+        "documentation": {}
+    },
+    {
+        "label": "Axes3D",
+        "importPath": "mpl_toolkits.mplot3d",
+        "description": "mpl_toolkits.mplot3d",
+        "isExtraImport": true,
+        "detail": "mpl_toolkits.mplot3d",
+        "documentation": {}
+    },
+    {
+        "label": "Axes3D",
+        "importPath": "mpl_toolkits.mplot3d",
+        "description": "mpl_toolkits.mplot3d",
+        "isExtraImport": true,
+        "detail": "mpl_toolkits.mplot3d",
+        "documentation": {}
+    },
+    {
+        "label": "Axes3D",
+        "importPath": "mpl_toolkits.mplot3d",
+        "description": "mpl_toolkits.mplot3d",
+        "isExtraImport": true,
+        "detail": "mpl_toolkits.mplot3d",
+        "documentation": {}
+    },
+    {
+        "label": "griddata",
+        "importPath": "scipy.interpolate",
+        "description": "scipy.interpolate",
+        "isExtraImport": true,
+        "detail": "scipy.interpolate",
+        "documentation": {}
+    },
+    {
+        "label": "griddata",
+        "importPath": "scipy.interpolate",
+        "description": "scipy.interpolate",
+        "isExtraImport": true,
+        "detail": "scipy.interpolate",
+        "documentation": {}
+    },
+    {
+        "label": "griddata",
+        "importPath": "scipy.interpolate",
+        "description": "scipy.interpolate",
+        "isExtraImport": true,
+        "detail": "scipy.interpolate",
+        "documentation": {}
+    },
+    {
+        "label": "string",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "string",
+        "description": "string",
+        "detail": "string",
+        "documentation": {}
+    },
+    {
         "label": "ComputeFile",
         "kind": 6,
         "importPath": "compute_files",
         "description": "compute_files",
-        "peekOfCode": "class ComputeFile: \n    def __init__(self, input_path='', output_path=''):\n        self.input_path = input_path\n        self.output_path = output_path\n        self.input_files = []\n        self.output_files = []\n        self.extensions = ['.ttl', '.nt', '.rdf', '.owl']\n    def build_graph(self, input_file=''):\n        graph = Graph()\n        graph.parse(input_file, format=get_format(value=input_file))",
+        "peekOfCode": "class ComputeFile:\n    def __init__(self, input_path='', output_path=''):\n        self.input_path = input_path\n        self.output_path = output_path\n        self.input_files = []\n        self.output_files = []\n        self.extensions = ['.ttl', '.nt', '.rdf', '.owl', '.csv']\n    def build_graph(self, input_file=''):\n        graph = Graph()\n        graph.parse(input_file, format=get_format(value=input_file))",
         "detail": "compute_files",
         "documentation": {}
     },
@@ -336,7 +570,7 @@
         "kind": 6,
         "importPath": "deep_similarity",
         "description": "deep_similarity",
-        "peekOfCode": "class DeepSimilarity:\n    def __init__(self, code=''):\n        # print('Deep String Similarity')\n        self.code = code\n    def jaro_similarity(self, value1='', value2=''):\n        def jaro_winkler_distance(s1, s2):\n            len_s1 = len(s1)\n            len_s2 = len(s2)\n            max_len = max(len_s1, len_s2)\n            match_distance = (max_len // 2) - 1",
+        "peekOfCode": "class DeepSimilarity:\n    def __init__(self, code=''):\n        # print('Deep String Similarity')\n        self.code = code\n    def bill_sim(self, value1='', value2=''):\n        if len(value1.lstrip()) > 0 and len(value2.lstrip()) > 0:\n            return StringSimilarity(source=value1, target=value2).run()\n        return 0.0\n    def jaro_similarity(self, value1='', value2=''):\n        def jaro_winkler_distance(s1, s2):",
         "detail": "deep_similarity",
         "documentation": {}
     },
@@ -345,7 +579,7 @@
         "kind": 6,
         "importPath": "embeddings",
         "description": "embeddings",
-        "peekOfCode": "class Embedding:\n    def __init__(self, file='', dimension=10, algo=''):\n        self.file = file\n        self.dimension = dimension\n        self.algo = algo\n    def load_file(self):\n        g = Graph()\n        g.parse(self.file)\n        return g\n    def build_triples(self, with_predicate=True):",
+        "peekOfCode": "class Embedding:\n    def __init__(self, file='', graph=None, dimension=200, model_name=''):\n        self.file = file\n        self.graph = graph\n        self.dimension = dimension\n        self.model_name = model_name\n    def load_file(self):\n        if self.graph == None:\n            g = Graph()\n            g.parse(self.file)",
         "detail": "embeddings",
         "documentation": {}
     },
@@ -359,174 +593,66 @@
         "documentation": {}
     },
     {
-        "label": "append_rows_to_csv",
-        "kind": 2,
-        "importPath": "test",
-        "description": "test",
-        "peekOfCode": "def append_rows_to_csv(new_rows, measure_file):\n    try:\n        df = pd.read_csv(measure_file)\n    except FileNotFoundError:\n        df = pd.DataFrame(\n            columns=['Dataset', 'Precision', 'Recall', 'F1-score', 'Threshold', 'CandidatesPairs', 'SelectedCandidates', 'RunningTime'])\n    new_data = pd.DataFrame(\n        new_rows, columns=['Dataset', 'Precision', 'Recall', 'F1-score', 'Threshold', 'CandidatesPairs', 'SelectedCandidates', 'RunningTime'])\n    df = pd.concat([df, new_data], ignore_index=True)\n    df.to_csv(measure_file, index=False)",
-        "detail": "test",
-        "documentation": {}
-    },
-    {
-        "label": "calculate_alignment_metrics",
-        "kind": 2,
-        "importPath": "test",
-        "description": "test",
-        "peekOfCode": "def calculate_alignment_metrics(output_file, truth_file, suffix, threshold, countpairs, selectedcount, runningtime):\n    measure_file = output_file.replace(\n        'tmp_valid_same_as.ttl', 'measure_file.csv')\n    output_graph = Graph()\n    output_graph.parse(output_file, format=\"turtle\")\n    truth_graph = Graph()\n    truth_graph.parse(truth_file, format=\"turtle\")\n    found_alignments = set(output_graph.subjects())\n    true_alignments = set(truth_graph.subjects())\n    print('Count of true alignments : ', len(true_alignments))",
-        "detail": "test",
-        "documentation": {}
-    },
-    {
-        "label": "sigmoid",
-        "kind": 2,
-        "importPath": "test",
-        "description": "test",
-        "peekOfCode": "def sigmoid(value):\n    return 1 / (1 + np.exp(value))\ndef cosine_sim(v1=[], v2=[]):\n    output = 0.0\n    dot = np.dot(v1, v2)\n    cosine = dot / (np.linalg.norm(v1) * np.linalg.norm(v2))\n    output = cosine\n    if output >= 0.7:\n        return True, output\n    return False, output",
-        "detail": "test",
-        "documentation": {}
-    },
-    {
-        "label": "cosine_sim",
-        "kind": 2,
-        "importPath": "test",
-        "description": "test",
-        "peekOfCode": "def cosine_sim(v1=[], v2=[]):\n    output = 0.0\n    dot = np.dot(v1, v2)\n    cosine = dot / (np.linalg.norm(v1) * np.linalg.norm(v2))\n    output = cosine\n    if output >= 0.7:\n        return True, output\n    return False, output\ndef sim(entity1=[], entity2=[], cosim=0.0, threshold=0.0):\n    jaros = []",
-        "detail": "test",
-        "documentation": {}
-    },
-    {
-        "label": "sim",
-        "kind": 2,
-        "importPath": "test",
-        "description": "test",
-        "peekOfCode": "def sim(entity1=[], entity2=[], cosim=0.0, threshold=0.0):\n    jaros = []\n    total = 0\n    for p1, o1 in entity1:\n        if not validators.url(o1):\n            tmp = []\n            for p2, o2 in entity2:\n                if not validators.url(o2):\n                    jaro_sim = round(ds.jaro_similarity(\n                        value1=o1, value2=o2), 2)",
-        "detail": "test",
-        "documentation": {}
-    },
-    {
-        "label": "create_and_save_rdf_from_dict",
-        "kind": 2,
-        "importPath": "test",
-        "description": "test",
-        "peekOfCode": "def create_and_save_rdf_from_dict(input_dict, output_file):\n    graph = Graph()\n    # owl = Namespace(\"http://www.w3.org/2002/07/owl#\")\n    for source, target in input_dict.items():\n        source_uri = URIRef(source)\n        target_uri = URIRef(target)\n        graph.add((source_uri, OWL.sameAs, target_uri))\n    graph.serialize(destination=output_file, format=\"turtle\")\ndef get_rdf_subjects(rdf_graph):\n    output = list(rdf_graph.subjects())",
-        "detail": "test",
-        "documentation": {}
-    },
-    {
-        "label": "get_rdf_subjects",
-        "kind": 2,
-        "importPath": "test",
-        "description": "test",
-        "peekOfCode": "def get_rdf_subjects(rdf_graph):\n    output = list(rdf_graph.subjects())\n    return output\ndef get_rdf_triples(rdf_graph):\n    subjects = {}\n    objects = {}\n    for s, p, o in tqdm(rdf_graph):\n        s = str(s)\n        p = str(p)\n        o = str(o)",
-        "detail": "test",
-        "documentation": {}
-    },
-    {
-        "label": "get_rdf_triples",
-        "kind": 2,
-        "importPath": "test",
-        "description": "test",
-        "peekOfCode": "def get_rdf_triples(rdf_graph):\n    subjects = {}\n    objects = {}\n    for s, p, o in tqdm(rdf_graph):\n        s = str(s)\n        p = str(p)\n        o = str(o)\n        if not s in subjects:\n            subjects[s] = []\n        if not o in objects:",
-        "detail": "test",
-        "documentation": {}
-    },
-    {
-        "label": "random_selections",
-        "kind": 2,
-        "importPath": "test",
-        "description": "test",
-        "peekOfCode": "def random_selections(data={}, k=0):\n    entities = list(data.keys())\n    output = {}\n    _randed = random.choices(entities, k=int(len(data)*k))\n    for e in _randed:\n        output[e] = data[e]\n    return output\n# End of embedding functions\n#\ndef parallel_running(sub1, sub2, vector1, vector2, subs1, subs2, threshold):",
-        "detail": "test",
-        "documentation": {}
-    },
-    {
-        "label": "parallel_running",
-        "kind": 2,
-        "importPath": "test",
-        "description": "test",
-        "peekOfCode": "def parallel_running(sub1, sub2, vector1, vector2, subs1, subs2, threshold):\n    v, cos = cosine_sim(v1=vector1, v2=vector2)\n    if v:\n        if sim(entity1=subs1[sub1], entity2=subs2[sub2], cosim=cos, threshold=threshold):\n            # already_treated[sub1] = sub2\n            return sub1, sub2, 1\n    return None, None, 0\ndimension = 20\n# algo = 'w2v'\nalgo = 'n2v'",
-        "detail": "test",
-        "documentation": {}
-    },
-    {
-        "label": "process_rdf_files",
-        "kind": 2,
-        "importPath": "test",
-        "description": "test",
-        "peekOfCode": "def process_rdf_files(file1, file2, output_file, truth_file, suffix, threshold):\n    graph1 = Graph()\n    graph1.parse(file1)\n    print('Source file loaded ..100%')\n    graph2 = Graph()\n    graph2.parse(file2)\n    print('Target file loaded ..100%')\n    source_embeddings = Embedding(\n        file=file1, dimension=dimension, algo=algo).run()\n    target_embeddings = Embedding(",
-        "detail": "test",
+        "label": "Linking",
+        "kind": 6,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "class Linking:\n    def __init__(self, cpu=10, source_file='', target_file='', truth_file='', output_file='', suffix='', embedding_name='r2v', dimension=200, alpha=0.0, beta=0.0, similarity_measure=''):\n        self.source_file = source_file\n        self.target_file = target_file\n        self.truth_file = truth_file\n        self.output_file = output_file\n        self.suffix = suffix\n        self.dimension = dimension\n        self.embedding_name = embedding_name\n        self.alpha = alpha",
+        "detail": "main",
         "documentation": {}
     },
     {
         "label": "start_time",
         "kind": 5,
-        "importPath": "test",
-        "description": "test",
-        "peekOfCode": "start_time = time.time()\n# output_files = [\n#     './outputs/anatomy/tmp_same_as.ttl',\n#     './outputs/doremus/tmp_same_as.ttl',\n#     './outputs/agrold/tmp_same_as.ttl',\n#     './outputs/SPIMBENCH_small-2016/tmp_same_as.ttl',\n#     './outputs/spaten_hobbit/tmp_same_as.ttl'\n# ]\n# truth_files = [\n#     './validations/anatomy/valid_same_as.ttl',",
-        "detail": "test",
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "start_time = time.time()\nclass Linking:\n    def __init__(self, cpu=10, source_file='', target_file='', truth_file='', output_file='', suffix='', embedding_name='r2v', dimension=200, alpha=0.0, beta=0.0, similarity_measure=''):\n        self.source_file = source_file\n        self.target_file = target_file\n        self.truth_file = truth_file\n        self.output_file = output_file\n        self.suffix = suffix\n        self.dimension = dimension\n        self.embedding_name = embedding_name",
+        "detail": "main",
         "documentation": {}
     },
     {
-        "label": "vocabulary",
-        "kind": 5,
-        "importPath": "test",
-        "description": "test",
-        "peekOfCode": "vocabulary = dict()\nsynonyms = dict()\nds = DeepSimilarity(code='*')\noutput_alignements = {}\nalready_treated = {}\n#  and not sub1 in output_alignements\ndef append_rows_to_csv(new_rows, measure_file):\n    try:\n        df = pd.read_csv(measure_file)\n    except FileNotFoundError:",
-        "detail": "test",
+        "label": "Optimization",
+        "kind": 6,
+        "importPath": "optimization copy",
+        "description": "optimization copy",
+        "peekOfCode": "class Optimization:\n    def __init__(self, truth_file='', output_file='', suffix=''):\n        self.truth_file = truth_file\n        self.alignment_file = output_file\n        self.suffix = suffix\n        self.step = 0.01\n    def load_graph(self, file=''):\n        graph = Graph()\n        graph.parse(file)\n        return graph",
+        "detail": "optimization copy",
         "documentation": {}
     },
     {
-        "label": "synonyms",
-        "kind": 5,
-        "importPath": "test",
-        "description": "test",
-        "peekOfCode": "synonyms = dict()\nds = DeepSimilarity(code='*')\noutput_alignements = {}\nalready_treated = {}\n#  and not sub1 in output_alignements\ndef append_rows_to_csv(new_rows, measure_file):\n    try:\n        df = pd.read_csv(measure_file)\n    except FileNotFoundError:\n        df = pd.DataFrame(",
-        "detail": "test",
+        "label": "Optimization",
+        "kind": 6,
+        "importPath": "optimization",
+        "description": "optimization",
+        "peekOfCode": "class Optimization:\n    def __init__(self, truth_file='', output_file='', suffix=''):\n        self.truth_file = truth_file\n        self.alignment_file = output_file\n        self.suffix = suffix\n        self.step = 0.01\n    def load_graph(self, file=''):\n        graph = Graph()\n        graph.parse(file)\n        return graph",
+        "detail": "optimization",
         "documentation": {}
     },
     {
-        "label": "ds",
-        "kind": 5,
-        "importPath": "test",
-        "description": "test",
-        "peekOfCode": "ds = DeepSimilarity(code='*')\noutput_alignements = {}\nalready_treated = {}\n#  and not sub1 in output_alignements\ndef append_rows_to_csv(new_rows, measure_file):\n    try:\n        df = pd.read_csv(measure_file)\n    except FileNotFoundError:\n        df = pd.DataFrame(\n            columns=['Dataset', 'Precision', 'Recall', 'F1-score', 'Threshold', 'CandidatesPairs', 'SelectedCandidates', 'RunningTime'])",
-        "detail": "test",
+        "label": "Optimization",
+        "kind": 6,
+        "importPath": "optimization_ablation",
+        "description": "optimization_ablation",
+        "peekOfCode": "class Optimization:\n    def __init__(self, truth_file='', output_file='', suffix=''):\n        self.truth_file = truth_file\n        self.alignment_file = output_file\n        self.suffix = suffix\n        self.step = 0.01\n    def load_graph(self, file=''):\n        graph = Graph()\n        graph.parse(file)\n        return graph",
+        "detail": "optimization_ablation",
         "documentation": {}
     },
     {
-        "label": "output_alignements",
-        "kind": 5,
-        "importPath": "test",
-        "description": "test",
-        "peekOfCode": "output_alignements = {}\nalready_treated = {}\n#  and not sub1 in output_alignements\ndef append_rows_to_csv(new_rows, measure_file):\n    try:\n        df = pd.read_csv(measure_file)\n    except FileNotFoundError:\n        df = pd.DataFrame(\n            columns=['Dataset', 'Precision', 'Recall', 'F1-score', 'Threshold', 'CandidatesPairs', 'SelectedCandidates', 'RunningTime'])\n    new_data = pd.DataFrame(",
-        "detail": "test",
+        "label": "StringSimilarity",
+        "kind": 6,
+        "importPath": "string_similarity",
+        "description": "string_similarity",
+        "peekOfCode": "class StringSimilarity:\n    def __init__(self, source='', target=''):\n        # print('Bill Similarity')\n        self.symbols = [] if len(alphabet) == 0 else alphabet\n        self.source = source.lower()\n        self.target = target.lower()\n    def symbol_vector(self, value=''):\n        output = np.zeros(len(self.symbols))\n        output[self.symbols.index(value)] = 1\n        return output",
+        "detail": "string_similarity",
         "documentation": {}
     },
     {
-        "label": "already_treated",
+        "label": "alphabet",
         "kind": 5,
-        "importPath": "test",
-        "description": "test",
-        "peekOfCode": "already_treated = {}\n#  and not sub1 in output_alignements\ndef append_rows_to_csv(new_rows, measure_file):\n    try:\n        df = pd.read_csv(measure_file)\n    except FileNotFoundError:\n        df = pd.DataFrame(\n            columns=['Dataset', 'Precision', 'Recall', 'F1-score', 'Threshold', 'CandidatesPairs', 'SelectedCandidates', 'RunningTime'])\n    new_data = pd.DataFrame(\n        new_rows, columns=['Dataset', 'Precision', 'Recall', 'F1-score', 'Threshold', 'CandidatesPairs', 'SelectedCandidates', 'RunningTime'])",
-        "detail": "test",
-        "documentation": {}
-    },
-    {
-        "label": "dimension",
-        "kind": 5,
-        "importPath": "test",
-        "description": "test",
-        "peekOfCode": "dimension = 20\n# algo = 'w2v'\nalgo = 'n2v'\ndef process_rdf_files(file1, file2, output_file, truth_file, suffix, threshold):\n    graph1 = Graph()\n    graph1.parse(file1)\n    print('Source file loaded ..100%')\n    graph2 = Graph()\n    graph2.parse(file2)\n    print('Target file loaded ..100%')",
-        "detail": "test",
-        "documentation": {}
-    },
-    {
-        "label": "algo",
-        "kind": 5,
-        "importPath": "test",
-        "description": "test",
-        "peekOfCode": "algo = 'n2v'\ndef process_rdf_files(file1, file2, output_file, truth_file, suffix, threshold):\n    graph1 = Graph()\n    graph1.parse(file1)\n    print('Source file loaded ..100%')\n    graph2 = Graph()\n    graph2.parse(file2)\n    print('Target file loaded ..100%')\n    source_embeddings = Embedding(\n        file=file1, dimension=dimension, algo=algo).run()",
-        "detail": "test",
+        "importPath": "string_similarity",
+        "description": "string_similarity",
+        "peekOfCode": "alphabet = list(string.printable)\nclass StringSimilarity:\n    def __init__(self, source='', target=''):\n        # print('Bill Similarity')\n        self.symbols = [] if len(alphabet) == 0 else alphabet\n        self.source = source.lower()\n        self.target = target.lower()\n    def symbol_vector(self, value=''):\n        output = np.zeros(len(self.symbols))\n        output[self.symbols.index(value)] = 1",
+        "detail": "string_similarity",
         "documentation": {}
     }
 ]

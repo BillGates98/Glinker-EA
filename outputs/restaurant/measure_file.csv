@@ -1,3 +1,0 @@
-Dataset,Precision,Recall,F1-score,Threshold,CandidatesPairs,SelectedCandidates,RunningTime
-restaurant,1.0,0.13,0.23,0.99,764784,16,31.51
-restaurant,0.99,1.0,0.99,0.7,764784,82229,33.46

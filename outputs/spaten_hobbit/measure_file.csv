@@ -1,5 +1,0 @@
-Dataset,Precision,Recall,F1-score,Threshold,CandidatesPairs,SelectedCandidates,RunningTime,Unnamed: 8
-spaten_hobbit,0.95,1.0,0.97,0.5,400,20,0.92,
-spaten_hobbit,0.0,0.0,0.0,0.99,400,0,0.78,
-spaten_hobbit,0.0,0.0,0.0,0.99,400,0,0.79,
-spaten_hobbit,0.95,1.0,0.97,0.4,400,20,0.81,

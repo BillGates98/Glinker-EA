@@ -13,19 +13,19 @@ from sklearn.decomposition import PCA
 
 class Embedding:
 
-    def __init__(self, file='', dimension=10, model_name=''):
+    def __init__(self, file='', graph=None, dimension=200, model_name=''):
         self.file = file
+        self.graph = graph
         self.dimension = dimension
         self.model_name = model_name
 
     def load_file(self):
-        g = Graph()
-        g.parse(self.file)
-        return g
+        if self.graph == None:
+            g = Graph()
+            g.parse(self.file)
+        return self.graph
 
     def build_triples(self, with_predicate=True):
-        # g = Graph()
-        # g.parse(self.file)
         triples = list(self.load_file())
         if not with_predicate:
             return [[str(triple[0]), str(triple[2])] for triple in triples]
@@ -48,7 +48,8 @@ class Embedding:
     def build_w2v_model(self):
         model = Word2Vec(self.build_triples(
         ), vector_size=self.dimension, window=5, sg=1, min_count=1, workers=6)
-        return model  # vector = model.wv['http://example.org/resource1']
+        print('model generated')
+        return model.wv  # vector = model.wv['http://example.org/resource1']
 
     def build_n2v_model(self):
         nx_graph = rdflib_to_networkx_multidigraph(self.load_file())

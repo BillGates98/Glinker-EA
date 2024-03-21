@@ -1,2 +1,0 @@
-# python3 ./graphics.py --input_path ./outputs/freebase/ --output_path ./outputs/freebase/_000/
-python3 ./graphics2.py --input_path ./outputs/freebase-latest/freebase-large/ --output_path ./outputs/freebase-latest/_000/
