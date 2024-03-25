@@ -7,7 +7,6 @@ alphabet = list(string.printable)
 class StringSimilarity:
 
     def __init__(self, source='', target=''):
-        # print('Bill Similarity')
         self.symbols = [] if len(alphabet) == 0 else alphabet
         self.source = source.lower()
         self.target = target.lower()
@@ -16,10 +15,6 @@ class StringSimilarity:
         output = np.zeros(len(self.symbols))
         output[self.symbols.index(value)] = 1
         return output
-
-    def softmax(self, x):
-        e_x = np.exp(x - np.max(x))
-        return e_x / e_x.sum()
 
     def sentence_vector(self, value=''):
         output = []
@@ -31,18 +26,27 @@ class StringSimilarity:
                 i = i + 1
         return np.array(output)
 
-    def sigmoid(self, value=0.0):
-        return 1 - (1 / (1 + np.tanh(value)))
-
     def run(self):
         v1 = self.sentence_vector(value=self.source)
         v2 = self.sentence_vector(value=self.target)
         v = np.dot(v1, v2.T)
-        tmp = []
-        for k in range(-v.shape[0]+1, v.shape[0], 1):
-            tmp.append((np.sum(np.diag(v, k=k)) /
-                        np.mean(v.shape)))
-        tmp = np.array(tmp)
-        max_pos = np.argmax(tmp)
-        recall = np.max(tmp[max_pos:])
-        return 2 * recall / (1 + recall)
+        trace = v.diagonal().sum()
+        links = []
+        for i in range(len(v)):
+            r_pointer = i
+            j = 1
+            while (j < len(v[i])):
+                status = v[r_pointer][j-1]
+                if status == v[r_pointer][j]:
+                    links.append((status, v[r_pointer][j]))
+                if r_pointer + 1 < len(v):
+                    if status == v[r_pointer+1][j]:
+                        links.append((status, v[r_pointer+1][j]))
+                    if v[r_pointer][j] == v[r_pointer+1][j]:
+                        links.append((v[r_pointer][j], v[r_pointer+1][j]))
+                    if v[r_pointer+1][j-1] == v[r_pointer][j]:
+                        links.append((v[r_pointer+1][j-1], v[r_pointer][j]))
+                j += 1
+        _links = len([(s, t) for s, t in links if s == t and t == 1.0])
+        score = np.sum(np.array([_links, trace])) / np.sum(v.shape)
+        return min(1.0, score)
