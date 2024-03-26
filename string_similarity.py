@@ -30,23 +30,19 @@ class StringSimilarity:
         v1 = self.sentence_vector(value=self.source)
         v2 = self.sentence_vector(value=self.target)
         v = np.dot(v1, v2.T)
-        trace = v.diagonal().sum()
-        links = []
-        for i in range(len(v)):
-            r_pointer = i
-            j = 1
-            while (j < len(v[i])):
-                status = v[r_pointer][j-1]
-                if status == v[r_pointer][j]:
-                    links.append((status, v[r_pointer][j]))
-                if r_pointer + 1 < len(v):
-                    if status == v[r_pointer+1][j]:
-                        links.append((status, v[r_pointer+1][j]))
-                    if v[r_pointer][j] == v[r_pointer+1][j]:
-                        links.append((v[r_pointer][j], v[r_pointer+1][j]))
-                    if v[r_pointer+1][j-1] == v[r_pointer][j]:
-                        links.append((v[r_pointer+1][j-1], v[r_pointer][j]))
-                j += 1
-        _links = len([(s, t) for s, t in links if s == t and t == 1.0])
-        score = np.sum(np.array([_links, trace])) / np.sum(v.shape)
-        return min(1.0, score)
+        tmp = []
+        a = int(np.sum(v.shape)/2)
+        for k in range(-a, a, 1):
+            tmp.append((np.sum(np.diag(v, k=k)) /
+                        np.min(v.shape)))
+        tmp = np.array(tmp)
+        tmp[::-1].sort()
+        result = max(tmp)
+        for a in range(1, len(tmp)):
+            result += tmp[a]/(a+1)
+        # correction
+        if result > 1.0:
+            decimal_part = result % 1
+            result = result - decimal_part*(1+decimal_part)
+        # print('Result : ', result)
+        return result
