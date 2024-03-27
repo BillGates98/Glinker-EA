@@ -70,6 +70,7 @@ class Optimization:
         tmp = step
         while tmp < 1.0:
             tmp += step
+            tmp = round(tmp, 2)
             output.append(tmp)
         return output
 
