@@ -89,22 +89,6 @@
         "documentation": {}
     },
     {
-        "label": "Namespace",
-        "importPath": "rdflib",
-        "description": "rdflib",
-        "isExtraImport": true,
-        "detail": "rdflib",
-        "documentation": {}
-    },
-    {
-        "label": "Literal",
-        "importPath": "rdflib",
-        "description": "rdflib",
-        "isExtraImport": true,
-        "detail": "rdflib",
-        "documentation": {}
-    },
-    {
         "label": "Graph",
         "importPath": "rdflib",
         "description": "rdflib",
@@ -146,10 +130,18 @@
     },
     {
         "label": "StringSimilarity",
-        "importPath": "string_similarity",
-        "description": "string_similarity",
+        "importPath": "hpp_similarity",
+        "description": "hpp_similarity",
         "isExtraImport": true,
-        "detail": "string_similarity",
+        "detail": "hpp_similarity",
+        "documentation": {}
+    },
+    {
+        "label": "StringSimilarity",
+        "importPath": "hpp_similarity",
+        "description": "hpp_similarity",
+        "isExtraImport": true,
+        "detail": "hpp_similarity",
         "documentation": {}
     },
     {
@@ -183,14 +175,6 @@
         "importPath": "networkx",
         "description": "networkx",
         "detail": "networkx",
-        "documentation": {}
-    },
-    {
-        "label": "rdflib_to_networkx_multidigraph",
-        "importPath": "rdflib.extras.external_graph_libs",
-        "description": "rdflib.extras.external_graph_libs",
-        "isExtraImport": true,
-        "detail": "rdflib.extras.external_graph_libs",
         "documentation": {}
     },
     {
@@ -358,6 +342,15 @@
         "description": "sklearn.metrics.pairwise",
         "isExtraImport": true,
         "detail": "sklearn.metrics.pairwise",
+        "documentation": {}
+    },
+    {
+        "label": "string",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "string",
+        "description": "string",
+        "detail": "string",
         "documentation": {}
     },
     {
@@ -548,12 +541,27 @@
         "documentation": {}
     },
     {
-        "label": "string",
-        "kind": 6,
+        "label": "JaroWinkler",
+        "importPath": "strsimpy.jaro_winkler",
+        "description": "strsimpy.jaro_winkler",
         "isExtraImport": true,
-        "importPath": "string",
-        "description": "string",
-        "detail": "string",
+        "detail": "strsimpy.jaro_winkler",
+        "documentation": {}
+    },
+    {
+        "label": "OrderedDict",
+        "importPath": "collections",
+        "description": "collections",
+        "isExtraImport": true,
+        "detail": "collections",
+        "documentation": {}
+    },
+    {
+        "label": "SimilarityMeasure",
+        "importPath": "similarity_measures",
+        "description": "similarity_measures",
+        "isExtraImport": true,
+        "detail": "similarity_measures",
         "documentation": {}
     },
     {
@@ -570,7 +578,7 @@
         "kind": 6,
         "importPath": "deep_similarity",
         "description": "deep_similarity",
-        "peekOfCode": "class DeepSimilarity:\n    def __init__(self, code=''):\n        # print('Deep String Similarity')\n        self.code = code\n    def bill_sim(self, value1='', value2=''):\n        if len(value1.lstrip()) > 0 and len(value2.lstrip()) > 0:\n            return StringSimilarity(source=value1, target=value2).run()\n        return 0.0\n    def jaro_similarity(self, value1='', value2=''):\n        def jaro_winkler_distance(s1, s2):",
+        "peekOfCode": "class DeepSimilarity:\n    def __init__(self, code=''):\n        # print('Deep String Similarity')\n        self.code = code\n    def hpp_sim(self, value1='', value2=''):\n        if len(value1.lstrip()) > 0 and len(value2.lstrip()) > 0:\n            return StringSimilarity(source=value1, target=value2).run()\n        return 0.0\n    def jaro_similarity(self, value1='', value2=''):\n        def jaro_winkler_distance(s1, s2):",
         "detail": "deep_similarity",
         "documentation": {}
     },
@@ -590,6 +598,15 @@
         "description": "features",
         "peekOfCode": "class FeatureBuilding: \n    def __init__(self, input_path='', output_path='', suffix='', algo='', dimension=10):\n        self.input_path = input_path + suffix + '/'\n        self.output_path = output_path\n        self.suffix = suffix\n        self.dimension = dimension\n        self.algo = algo\n        files = ComputeFile(input_path=self.input_path).build_list_files()\n        self.source_file = self.filter(keyword='source', all=files)\n        self.target_file = self.filter(keyword='target', all=files)",
         "detail": "features",
+        "documentation": {}
+    },
+    {
+        "label": "StringSimilarity",
+        "kind": 6,
+        "importPath": "hpp_similarity",
+        "description": "hpp_similarity",
+        "peekOfCode": "class StringSimilarity:\n    def __init__(self, source='', target=''):\n        self.symbols = [] if len(\n            list(string.printable)) == 0 else list(string.printable)\n        self.source = source.lower()\n        self.target = target.lower()\n    def symbol_vector(self, value=''):\n        output = np.zeros(len(self.symbols))\n        output[self.symbols.index(value)] = 1\n        return output",
+        "detail": "hpp_similarity",
         "documentation": {}
     },
     {
@@ -613,46 +630,73 @@
     {
         "label": "Optimization",
         "kind": 6,
-        "importPath": "optimization copy",
-        "description": "optimization copy",
-        "peekOfCode": "class Optimization:\n    def __init__(self, truth_file='', output_file='', suffix=''):\n        self.truth_file = truth_file\n        self.alignment_file = output_file\n        self.suffix = suffix\n        self.step = 0.01\n    def load_graph(self, file=''):\n        graph = Graph()\n        graph.parse(file)\n        return graph",
-        "detail": "optimization copy",
-        "documentation": {}
-    },
-    {
-        "label": "Optimization",
-        "kind": 6,
         "importPath": "optimization",
         "description": "optimization",
-        "peekOfCode": "class Optimization:\n    def __init__(self, truth_file='', output_file='', suffix=''):\n        self.truth_file = truth_file\n        self.alignment_file = output_file\n        self.suffix = suffix\n        self.step = 0.01\n    def load_graph(self, file=''):\n        graph = Graph()\n        graph.parse(file)\n        return graph",
+        "peekOfCode": "class Optimization:\n    def __init__(self, truth_file='', output_file='', suffix='', embedding_name='', similarity_measure=''):\n        self.truth_file = truth_file\n        self.alignment_file = output_file\n        self.suffix = suffix\n        self.embedding_name = embedding_name\n        self.similarity_measure = similarity_measure\n        self.step = 0.01\n    def load_graph(self, file=''):\n        graph = Graph()",
         "detail": "optimization",
         "documentation": {}
     },
     {
-        "label": "Optimization",
+        "label": "OptimizationAblation",
         "kind": 6,
         "importPath": "optimization_ablation",
         "description": "optimization_ablation",
-        "peekOfCode": "class Optimization:\n    def __init__(self, truth_file='', output_file='', suffix=''):\n        self.truth_file = truth_file\n        self.alignment_file = output_file\n        self.suffix = suffix\n        self.step = 0.01\n    def load_graph(self, file=''):\n        graph = Graph()\n        graph.parse(file)\n        return graph",
+        "peekOfCode": "class OptimizationAblation:\n    def __init__(self, truth_file='', output_file='', suffix='', embedding_name='', similarity_measure=''):\n        self.truth_file = truth_file\n        self.alignment_file = output_file\n        self.suffix = suffix\n        self.embedding_name = embedding_name\n        self.similarity_measure = similarity_measure\n        self.step = 0.01\n    def load_graph(self, file=''):\n        graph = Graph()",
         "detail": "optimization_ablation",
         "documentation": {}
     },
     {
-        "label": "StringSimilarity",
+        "label": "Optimization",
         "kind": 6,
-        "importPath": "string_similarity",
-        "description": "string_similarity",
-        "peekOfCode": "class StringSimilarity:\n    def __init__(self, source='', target=''):\n        # print('Bill Similarity')\n        self.symbols = [] if len(alphabet) == 0 else alphabet\n        self.source = source.lower()\n        self.target = target.lower()\n    def symbol_vector(self, value=''):\n        output = np.zeros(len(self.symbols))\n        output[self.symbols.index(value)] = 1\n        return output",
-        "detail": "string_similarity",
+        "importPath": "optimization_draft",
+        "description": "optimization_draft",
+        "peekOfCode": "class Optimization:\n    def __init__(self, truth_file='', output_file='', suffix=''):\n        self.truth_file = truth_file\n        self.alignment_file = output_file\n        self.suffix = suffix\n        self.step = 0.01\n    def load_graph(self, file=''):\n        graph = Graph()\n        graph.parse(file)\n        return graph",
+        "detail": "optimization_draft",
         "documentation": {}
     },
     {
-        "label": "alphabet",
-        "kind": 5,
-        "importPath": "string_similarity",
-        "description": "string_similarity",
-        "peekOfCode": "alphabet = list(string.printable)\nclass StringSimilarity:\n    def __init__(self, source='', target=''):\n        # print('Bill Similarity')\n        self.symbols = [] if len(alphabet) == 0 else alphabet\n        self.source = source.lower()\n        self.target = target.lower()\n    def symbol_vector(self, value=''):\n        output = np.zeros(len(self.symbols))\n        output[self.symbols.index(value)] = 1",
-        "detail": "string_similarity",
+        "label": "SimilarityMeasure",
+        "kind": 6,
+        "importPath": "similarity_measures",
+        "description": "similarity_measures",
+        "peekOfCode": "class SimilarityMeasure:\n    def __init__(self, source='', target=''):\n        self.source = source\n        self.target = target\n    def jaro_winkler(self):\n        start = time.time()\n        jarowinkler = JaroWinkler()\n        value = jarowinkler.similarity(self.source, self.target)\n        return {'value': value, 'time': time.time()-start}\n    def hpp_sim(self):",
+        "detail": "similarity_measures",
+        "documentation": {}
+    },
+    {
+        "label": "build_alphabet",
+        "kind": 2,
+        "importPath": "similarity_measures_comparison",
+        "description": "similarity_measures_comparison",
+        "peekOfCode": "def build_alphabet(sentences=[]):\n    output = set()\n    for word in sentences:\n        word = word.replace(' ', '')\n        tmp = list(OrderedDict.fromkeys(word).keys())\n        output.update(tmp)\n    return list(output)\ndef sim_measure_data():\n    data = [\n        ('Research', 'Scientist'),",
+        "detail": "similarity_measures_comparison",
+        "documentation": {}
+    },
+    {
+        "label": "sim_measure_data",
+        "kind": 2,
+        "importPath": "similarity_measures_comparison",
+        "description": "similarity_measures_comparison",
+        "peekOfCode": "def sim_measure_data():\n    data = [\n        ('Research', 'Scientist'),\n        ('Research', 'Jon wick'),\n        ('John wick', 'Scientist'),\n        ('John wick', 'Jon wick')\n    ]\n    for s, t in data:\n        print(\"Strings : <\", s, \"> -String- <\", t, '>')\n        sim = SimilarityMeasure(source=s, target=t).run()",
+        "detail": "similarity_measures_comparison",
+        "documentation": {}
+    },
+    {
+        "label": "comparison_with_jaro_data",
+        "kind": 2,
+        "importPath": "similarity_measures_comparison",
+        "description": "similarity_measures_comparison",
+        "peekOfCode": "def comparison_with_jaro_data():\n    data = [\n        ('shackleford', 'shackleford'),\n        ('shackleford', 'shackelford'),\n        ('cunningham', 'cunnigham'),\n        ('campell', 'campbell'),\n        ('nichleson', 'nichulson'),\n        ('massey', 'massie'),\n        ('galloway', 'calloway'),\n        ('lampley', 'campley'),",
+        "detail": "similarity_measures_comparison",
+        "documentation": {}
+    },
+    {
+        "label": "advancing",
+        "kind": 2,
+        "importPath": "similarity_measures_comparison",
+        "description": "similarity_measures_comparison",
+        "peekOfCode": "def advancing():\n    data = [('jeraldien', 'geraldine')]\n    s, t = data[0]\n    for i in range(1, len(s)):\n        tmp_s = list(s)\n        tmp_t = list(t)\n        j = 1\n        while j <= i:\n            tmp_s[j-1] = tmp_s[j]\n            tmp_t[j-1] = tmp_t[j]",
+        "detail": "similarity_measures_comparison",
         "documentation": {}
     }
 ]

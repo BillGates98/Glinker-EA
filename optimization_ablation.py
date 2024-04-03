@@ -31,6 +31,8 @@ class OptimizationAblation:
 
     def read_csv(self):
         data = pd.read_csv(self.alignment_file)
+        # data = data.loc[(data['cosine_sim'] >= 0.96)]
+        print('Selected : ', len(data))
         return data
 
     def truths(self):
@@ -68,7 +70,7 @@ class OptimizationAblation:
     def numerical_set(self, step=0.01, end=1.0):
         output = []
         tmp = step
-        while tmp < 1.0:
+        while tmp < end:
             tmp += step
             tmp = round(tmp, 2)
             output.append(tmp)
@@ -88,19 +90,19 @@ class OptimizationAblation:
 
     def orchestrator(self):
         output = {
-            "recall": [],
-            "f1score": [],
-            "alpha": [],
-            "beta": [],
+            "recall": [0.0],
+            "f1score": [0.0],
+            "alpha": [0.0],
+            "beta": [0.0],
             # "_alpha": [],
             # "_beta": [],
-            "precision": []
+            "precision": [0.0]
         }
         data = self.read_csv()
         truths = self.truths()
         alpha = 0.0  # self.step
-        alphas = self.numerical_set(step=0.1)
-        betas = self.numerical_set(step=0.1)
+        alphas = self.numerical_set(step=0.01)
+        betas = self.numerical_set(step=0.01)
         for i in tqdm(range(len(alphas))):
             alpha = alphas[i]
             for j in range(len(betas)):
@@ -109,7 +111,7 @@ class OptimizationAblation:
                 if beta > alpha:
                     tmp_alignments = []
                     tmp = data.loc[(data['cosine_sim'] >= alpha)
-                                   & (data['cosine_sim'] < beta)]
+                                   & (data['cosine_sim'] <= beta)]
                     if len(tmp) > 0:
                         for index in tmp.index:
                             source = str(tmp['source'][index])
@@ -163,7 +165,7 @@ if __name__ == "__main__":
         parser.add_argument("--suffix", type=str, default="doremus")
         parser.add_argument("--embedding_name", type=str, default="r2v")
         parser.add_argument("--similarity_measure",
-                            type=str, default="bill_sim")
+                            type=str, default="hpp_sim")
         return parser.parse_args()
 
     start = time.time()
@@ -171,7 +173,7 @@ if __name__ == "__main__":
     truth_file = detect_file(path=args.input_path+args.suffix, type='same_as')
     output_file = detect_file(
         path='./outputs/'+args.suffix, type=args.embedding_name + '_' + args.similarity_measure + '_valid_same_as')
-    print('Dataset : ', args.suffix)
+    print('Dataset : ', args.suffix, ' with ablation')
     print('Files : ', truth_file, ' >> ', output_file)
     OptimizationAblation(truth_file=truth_file, output_file=output_file,
                          suffix=args.suffix, embedding_name=args.embedding_name, similarity_measure=args.similarity_measure).run()

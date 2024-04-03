@@ -2,17 +2,14 @@ import os
 from rdflib import Graph
 from deep_similarity import DeepSimilarity
 import numpy as np
-import random
 import validators
-from rdflib import Graph, URIRef, Namespace, Literal
+from rdflib import Graph, URIRef
 from rdflib.namespace import OWL
-from rdflib.extras.external_graph_libs import rdflib_to_networkx_multidigraph
 from rdflib import Graph, URIRef
 from tqdm import tqdm
 import time
 import multiprocessing
 from embeddings import Embedding
-import itertools
 import argparse
 from compute_files import ComputeFile
 import pandas as pd
@@ -77,14 +74,30 @@ class Linking:
         cosine = dot / (np.linalg.norm(v1) * np.linalg.norm(v2))
         return cosine
 
+    def check_pain(self, value1='', value2=''):
+        set1 = set(value1)
+        set2 = set(value2)
+        intersection = set1 & set2
+        nb_common_characters = len(intersection)
+        _len1 = len(value1)
+        _len2 = len(value2)
+        total_length = _len1 + _len2
+        percentage = 0
+        if total_length > 0:
+            percentage = (nb_common_characters / total_length) * 100
+        # percentage >= 15 and
+        # and percentage >= 15
+        return percentage >= 50
+
     def sim(self, entity1=[], entity2=[]):
         output = []
+
         for p1, o1 in entity1:
             if not validators.url(o1):
                 tmp = []
                 for p2, o2 in entity2:
-                    if not validators.url(o2):
-                        _sim = round(self.deepSimString.bill_sim(
+                    if not validators.url(o2) and self.check_pain(value1=o1, value2=o2):
+                        _sim = round(self.deepSimString.hpp_sim(
                             value1=o1, value2=o2), 2)
                         if _sim > 0:
                             tmp.append(_sim)
@@ -93,7 +106,7 @@ class Linking:
         leno = len(output)
         decision = 0.0
         if leno >= 1:
-            decision = round((np.mean(np.array(output))), 2)
+            decision = round((np.max(np.array(output))), 2)
         return decision
 
     def create_and_save_rdf_from_dict(self, input_dict, output_file):
@@ -195,7 +208,7 @@ if __name__ == "__main__":
         parser.add_argument("--alpha", type=float, default=0.95)
         parser.add_argument("--beta", type=float, default=0.9)
         parser.add_argument("--similarity_measure",
-                            type=str, default="bill_sim")
+                            type=str, default="hpp_sim")
         return parser.parse_args()
     args = arg_manager()
     source_file = detect_file(path=args.input_path+args.suffix, type='source')

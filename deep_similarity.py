@@ -1,4 +1,4 @@
-from string_similarity import StringSimilarity
+from hpp_similarity import StringSimilarity
 
 
 class DeepSimilarity:
@@ -7,7 +7,7 @@ class DeepSimilarity:
         # print('Deep String Similarity')
         self.code = code
 
-    def bill_sim(self, value1='', value2=''):
+    def hpp_sim(self, value1='', value2=''):
         if len(value1.lstrip()) > 0 and len(value2.lstrip()) > 0:
             return StringSimilarity(source=value1, target=value2).run()
         return 0.0
@@ -68,7 +68,7 @@ class DeepSimilarity:
         return final
 
     def run(self, value1='', value2='', measure=''):
-        if measure == 'bill_sim':
-            return self.bill_sim(value1=value1, value2=value2)
+        if measure == 'hpp_sim':
+            return self.hpp_sim(value1=value1, value2=value2)
         elif measure == 'jaro_winkler':
             return self.jaro_similarity(value1=value1, value2=value2)
