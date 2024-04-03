@@ -28,6 +28,9 @@
 
     $ python ./hpp_similarity.py --value1 'Conference' --value2 'conferance'
 
+    -------- Output -----
+    The similarity score between ' conference ' and ' conferance ' is  0.9796598072562359 .
+
 > 1.3. Comparison between Jaro-Winkler and HPP Results
 
     ---------------------------------------------------------

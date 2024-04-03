@@ -59,4 +59,5 @@ if __name__ == "__main__":
     value1 = args.value1
     value2 = args.value2
     score = StringSimilarity(source=value1, target=value2).run()
-    print('Similarity score : ', value1, ' and ', value2, ' : ', score)
+    print('The similarity score between \'', value1.lstrip(),
+          '\' and \'', value2.lstrip(), '\' is ', score, '.')
