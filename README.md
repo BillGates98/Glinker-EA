@@ -2,7 +2,7 @@
 
 > Install Python :snake: (>=3.8) and dependencies.
 
-`python -m pip install -r ./requirements.txt`
+    python -m pip install -r ./requirements.txt
 
 > Important to do :
 
@@ -22,11 +22,11 @@
 
 > 1.1. Reproduce the comparison between HPP and Jaro-Winkler in the paper :
 
-    `$ python ./similarity_measures_comparison.py`
+    $ python ./similarity_measures_comparison.py
 
 > 1.2. Playing with the HPP similarity measure
 
-    `$ python ./hpp_similarity.py --value1 'Conference' --value2 'conferance'`
+    $ python ./hpp_similarity.py --value1 'Conference' --value2 'conferance'
 
 > 1.3. Comparison between Jaro-Winkler and HPP Results
 
@@ -59,28 +59,28 @@
 
 > 2.1. running on a single dataset
 
-    `$ python ./main.py --suffix $dataset --embedding_name $model --dimension $dimension --alpha $alpha --beta $beta --similarity_measure $string_measure`
+    $ python ./main.py --suffix $dataset --embedding_name $model --dimension $dimension --alpha $alpha --beta $beta --similarity_measure $string_measure
 
 > 2.2. running for all the datasets
 
-    `$ sh ./general.sh`
+    $ sh ./general.sh
 
 ## 3. Glinker optimization at ablation level
 
 > 3.1. optimization on a single dataset
 
-    `$ python ./optimization_ablation.py --suffix $dataset --embedding_name $model --similarity_measure $string_measure`
+    $ python ./optimization_ablation.py --suffix $dataset --embedding_name $model --similarity_measure $string_measure
 
 > 3.2. Glinker optimization on all the datasets
 
-    `$ sh ./general_optimization_on_ablation.sh`
+    $ sh ./general_optimization_on_ablation.sh
 
 ## 4. Glinker optimization without ablation
 
 > 4.1. optimization on a single dataset
 
-    `$ python ./optimization.py --suffix $dataset --embedding_name $model --similarity_measure $string_measure`
+    $ python ./optimization.py --suffix $dataset --embedding_name $model --similarity_measure $string_measure
 
 > 4.2. Glinker optimization on all the datasets
 
-    `$ sh ./general_optimization_without_ablation.sh`
+    $ sh ./general_optimization_without_ablation.sh
