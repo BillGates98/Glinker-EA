@@ -45,6 +45,7 @@ class StringSimilarity:
         if result > 1.0:
             decimal_part = result % 1
             result = result - decimal_part*(1+decimal_part)
+            result = min(result, 1.0)
         # print('Result : ', result)
         return max(result, max(tmp))
 
